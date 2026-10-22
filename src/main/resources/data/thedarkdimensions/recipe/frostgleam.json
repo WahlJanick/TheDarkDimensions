@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  E",
+    " I ",
+    "S  "
+  ],
+  "key": {
+    "E": "thedarkdimensions:japanese_essence",
+    "I": "minecraft:blue_ice",
+    "S": "thedarkdimensions:basic_katana"
+  },
+  "result": {
+    "id": "thedarkdimensions:frostgleam"
+  }
+}

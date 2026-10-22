@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "thedarkdimensions:item/mindshifter_off"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "thedarkdimensions:item/mindshifter"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "firstperson_lefthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "thedarkdimensions:item/mindshifter_off"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "thedarkdimensions:item/mindshifter"
+      }
+    }
+  }
+}

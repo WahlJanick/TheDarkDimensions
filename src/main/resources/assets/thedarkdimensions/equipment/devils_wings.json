@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "thedarkdimensions:devils_wings",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

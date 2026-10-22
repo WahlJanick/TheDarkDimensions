@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:soul_core",
+    "minecraft:ender_pearl"
+  ],
+  "result": {
+    "id": "thedarkdimensions:ender_core"
+  }
+}

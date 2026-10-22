@@ -1,0 +1,18 @@
+{
+  "blocks": "Create ONE Minecraft elemental cave block texture atlas, exactly 4 columns and 2 rows, equal square cells, no gaps, no labels, no borders. Sharp 16x16 pixel-art tiles enlarged, seamlessly tiling flat block faces, readable medium-bright palette matching vanilla Minecraft burned stone. Row 1 left to right: Fire Cave Stone (warm charcoal rock with small ember specks), Fire Crystal (bright amber-orange crystal facets), Water Cave Stone (medium blue-gray rock with damp turquoise veins), Water Crystal (bright blue-cyan crystalline facets). Row 2 left to right: Glowing Cave Stone (warm gray stone with pale gold glowing mineral specks), Glowing Honey Block (translucent-looking amber gold honey with small bright luminous cells, opaque tile), Spell Rune Stone (weathered gray stone with turquoise orange and gold runic geometric grooves), Glowing Crystal (pale cream-gold crystal facets). ONLY the exact rigid 4x2 texture atlas. No scenes, no objects, no text, no soft blur. Good contrast, distinct patterns.",
+  "items": "Create one exact 2x2 Minecraft item icon sprite sheet with a truly transparent background. Four centered isolated 16x16-style chunky pixel art item sprites, equal square cells, generous transparent space around each; no grid lines, no text. Top-left: Water Core, a glossy blue cyan magical round orb with dark rim. Top-right: Lightning Core, a glossy golden white magical orb with zigzag lightning center. Bottom-left: Spell Core, violet magical orb combining small orange fire, blue water and gold lightning marks. Bottom-right: Glowing Honey, a Minecraft glass honey bottle filled with bright golden honey and luminous pale cream highlights and brown cork. Crisp small pixels, hard edges, classic Minecraft inventory style, no backgrounds or outside shadows. Only these four icons in the exact positions.",
+  "skins": [
+    [
+      "fire_mage",
+      "Recolor this Minecraft Witch UV texture sheet into a Fire Mage. Preserve EXACT UV region positions, character face, silhouette of all pixel regions and transparency mask. Charcoal and crimson robe, ember-orange trims, bright orange eyes, dark brown tall hat with red band. Pixel art only, no perspective, no labels, no margins. Return ONLY the same unwrapped skin layout, same aspect ratio."
+    ],
+    [
+      "water_husk",
+      "Recolor this Minecraft Husk UV texture sheet into a Water Husk. Preserve EXACT UV region positions, facial pixel details, silhouette of all pixel regions and transparency mask. Blue-gray drowned-looking skin, turquoise highlights, dark teal clothes, vivid blue eyes. Pixel art only, no perspective, no labels, no margins. Return ONLY the same unwrapped skin layout, same aspect ratio."
+    ],
+    [
+      "glowing_bee",
+      "Recolor this Minecraft Bee UV texture sheet into a Glowing Bee. Preserve EXACT UV region positions, wing transparency, face details and all pixel regions. Bright cream gold body stripes alternating warm dark amber, luminous pale yellow wings, bright gold eyes. Pixel art only, no perspective, no labels, no margins. Return ONLY the same unwrapped skin layout, same aspect ratio."
+    ]
+  ]
+}

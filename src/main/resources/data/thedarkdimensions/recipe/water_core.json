@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "WRW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:water_bucket",
+    "R": "thedarkdimensions:empty_runestone"
+  },
+  "result": {
+    "id": "thedarkdimensions:water_core"
+  }
+}

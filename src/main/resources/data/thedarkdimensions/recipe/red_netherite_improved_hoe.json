@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:red_netherite_upgrade_smithing_template",
+  "base": "thedarkdimensions:perfected_netherite_hoe",
+  "addition": "thedarkdimensions:red_netherite_ingot",
+  "result": {
+    "id": "thedarkdimensions:red_netherite_improved_hoe"
+  }
+}

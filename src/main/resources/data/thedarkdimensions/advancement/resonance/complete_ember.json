@@ -1,0 +1,33 @@
+{
+  "parent": "thedarkdimensions:exploration/enter_realm",
+  "display": {
+    "icon": {
+      "id": "thedarkdimensions:ember_rune"
+    },
+    "title": {
+      "translate": "item.thedarkdimensions.ember_rune"
+    },
+    "description": {
+      "translate": "resonance.thedarkdimensions.requires_ember"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thedarkdimensions:ember_rune"
+    ]
+  }
+}

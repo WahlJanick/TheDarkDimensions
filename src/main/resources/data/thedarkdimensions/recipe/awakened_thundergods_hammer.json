@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:lightning_core",
+  "base": "thedarkdimensions:thundergods_hammer",
+  "addition": "thedarkdimensions:lightning_spell_book",
+  "result": {
+    "id": "thedarkdimensions:awakened_thundergods_hammer"
+  }
+}

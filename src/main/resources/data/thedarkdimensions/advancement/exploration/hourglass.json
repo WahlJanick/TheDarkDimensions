@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "thedarkdimensions:timeworn_hourglass"
+    },
+    "title": {
+      "translate": "advancement.thedarkdimensions.hourglass.title"
+    },
+    "description": {
+      "translate": "advancement.thedarkdimensions.hourglass.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thedarkdimensions:timeworn_hourglass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "thedarkdimensions:exploration/keeper_defeated"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "thedarkdimensions:resonant_ender_eye",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:blaze_powder",
+    "thedarkdimensions:essentialium"
+  ],
+  "result": {
+    "id": "minecraft:ender_eye"
+  }
+}

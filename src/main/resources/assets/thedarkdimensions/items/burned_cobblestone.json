@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/burned_cobblestone",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 11184052
+      }
+    ]
+  }
+}

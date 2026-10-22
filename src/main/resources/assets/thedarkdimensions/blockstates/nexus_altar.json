@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "attuned=0": {
+      "model": "thedarkdimensions:block/nexus_altar_0"
+    },
+    "attuned=1": {
+      "model": "thedarkdimensions:block/nexus_altar_1"
+    },
+    "attuned=2": {
+      "model": "thedarkdimensions:block/nexus_altar_2"
+    },
+    "attuned=3": {
+      "model": "thedarkdimensions:block/nexus_altar_3"
+    },
+    "attuned=4": {
+      "model": "thedarkdimensions:block/nexus_altar_4"
+    },
+    "attuned=5": {
+      "model": "thedarkdimensions:block/nexus_altar_5"
+    },
+    "attuned=6": {
+      "model": "thedarkdimensions:block/nexus_altar_6"
+    },
+    "attuned=7": {
+      "model": "thedarkdimensions:block/nexus_altar_7"
+    }
+  }
+}

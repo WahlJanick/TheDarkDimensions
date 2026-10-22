@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:creeperblood",
+    "thedarkdimensions:creeperblood",
+    "thedarkdimensions:creeperblood",
+    "thedarkdimensions:creeperblood",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_ingot"
+  ],
+  "result": {
+    "id": "thedarkdimensions:red_netherite_ingot"
+  }
+}

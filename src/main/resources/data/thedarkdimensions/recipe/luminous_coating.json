@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:glowing_honey",
+    "thedarkdimensions:essentialium",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "thedarkdimensions:luminous_coating"
+  }
+}

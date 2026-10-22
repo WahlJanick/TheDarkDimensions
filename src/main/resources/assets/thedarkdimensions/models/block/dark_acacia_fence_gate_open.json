@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_open",
+  "textures": {
+    "texture": "thedarkdimensions:block/dark_acacia_planks"
+  }
+}

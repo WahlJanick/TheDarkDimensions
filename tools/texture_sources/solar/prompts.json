@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen",
+  "references": [
+    "blood_essence.png",
+    "japanese_essence.png"
+  ],
+  "solar_essence": "Create a single Minecraft inventory item icon: Solar Essence. Use the two reference images ONLY for matching the chunky pixel art style, small isolated essence shape and strong dark outlines. A compact golden amber sun essence with a white-gold central glint, amber orange faceted centre and a few crisp short sun rays. Not a flat coin: match the faceted magical essence silhouette in the reference. Exact 32x32 logical pixel grid, hard square pixels, no antialiasing or smooth gradients, no letters, no glow outside the icon, no ground or background, transparent background. One centered icon filling 24x24 of the 32x32 grid. Render on a large square canvas as a uniformly enlarged exact 32x32 pixel sprite so it can be reduced with nearest neighbour.",
+  "pocket_dimension_key": "Create a single Minecraft inventory item icon: Pocket Dimension Key. Use the two reference images ONLY to match the crisp chunky Minecraft pixel-art style, dark outlines and vivid metallic highlights. The key design must visibly reflect its crafting recipe: a vertical dark netherite key shaft made of two segments above a bright small golden-orange Solar Essence set between two gold pieces at the bottom. A handsome dark netherite key with the solar golden bow at the bottom, dark shaft rising upward with an angular key tooth near its upper tip. Slight diagonal inventory orientation is fine. Gold and amber solar core highlights, dark grey-violet netherite metal. Exact 32x32 logical pixel grid, hard square pixels, no antialiasing, no letters, no background, truly transparent background, no drop shadow, no bloom. Single centered icon. Render as a uniformly enlarged exact 32x32 pixel sprite, suitable for nearest-neighbour reduction."
+}

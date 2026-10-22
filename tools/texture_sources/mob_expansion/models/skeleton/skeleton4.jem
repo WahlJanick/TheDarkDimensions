@@ -1,0 +1,690 @@
+{
+	"credit": "Animations by Ewan Howell - https://ewanhowell.com/ - designed by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"textureSize": [128, 64],
+	"texture": "textures/entity/skeleton/sunken_skeleton.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "rotate",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "translate",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "physics_body",
+									"invertAxis": "xy",
+									"translate": [0, 18, 0],
+									"boxes": [
+										{"coordinates": [-4, 5, -2, 1, 1, 4], "textureOffset": [8, 21]},
+										{"coordinates": [-4, 3, -2, 1, 1, 4], "textureOffset": [24, 20]},
+										{"coordinates": [-4, 1, -2, 1, 1, 4], "textureOffset": [12, 27]},
+										{"coordinates": [-4, -6, -2, 1, 2, 4], "textureOffset": [32, 8]},
+										{"coordinates": [3, -6, -2, 1, 2, 4], "textureOffset": [25, 26]},
+										{"coordinates": [3, 1, -2, 1, 1, 4], "textureOffset": [6, 26]},
+										{"coordinates": [3, 3, -2, 1, 1, 4], "textureOffset": [18, 16]},
+										{"coordinates": [3, 5, -2, 1, 1, 4], "textureOffset": [8, 16]},
+										{"coordinates": [2, 5, -2, 1, 1, 1], "textureOffset": [8, 16]},
+										{"coordinates": [-3, 5, -2, 1, 1, 1], "textureOffset": [8, 18]},
+										{"coordinates": [-1, -6, -1, 2, 1, 2], "textureOffset": [38, 9]},
+										{"coordinates": [-3, -5, -2, 2, 1, 1], "textureOffset": [24, 18]},
+										{"coordinates": [1, -5, -2, 2, 1, 1], "textureOffset": [24, 16]},
+										{"coordinates": [-3, 5, 1, 2, 1, 1], "textureOffset": [30, 16]},
+										{"coordinates": [-3, -6, 1, 6, 2, 1], "textureOffset": [46, 13]},
+										{"coordinates": [-3, -6, -2, 6, 1, 1], "textureOffset": [32, 14]},
+										{"coordinates": [1, 3, 1, 2, 1, 1], "textureOffset": [44, 9]},
+										{"coordinates": [-3, 3, 1, 2, 1, 1], "textureOffset": [24, 6]},
+										{"coordinates": [1, 1, 1, 2, 1, 1], "textureOffset": [36, 16]},
+										{"coordinates": [-3, 1, 1, 2, 1, 1], "textureOffset": [45, 11]},
+										{"coordinates": [1, 5, 1, 2, 1, 1], "textureOffset": [24, 4]},
+										{"coordinates": [-1, -4, 1, 2, 10, 1], "textureOffset": [31, 19]},
+										{"coordinates": [-3, 0, -2, 1, 1, 1], "textureOffset": [8, 23]},
+										{"coordinates": [2, 0, -2, 1, 1, 1], "textureOffset": [8, 21]},
+										{"coordinates": [-3, 4, -2, 2, 1, 1], "textureOffset": [14, 18]},
+										{"coordinates": [1, 4, -2, 2, 1, 1], "textureOffset": [14, 16]},
+										{"coordinates": [-1, 0, -2, 2, 1, 1], "textureOffset": [18, 27]},
+										{"coordinates": [1, -1, -2, 2, 1, 1], "textureOffset": [18, 29]},
+										{"coordinates": [-3, -1, -2, 2, 1, 1], "textureOffset": [23, 28]},
+										{"coordinates": [-2, 1, -2, 4, 1, 1], "textureOffset": [17, 25]},
+										{"coordinates": [-3, 2, -2, 6, 2, 1], "textureOffset": [14, 21]}
+									],
+									"submodels": [
+										{
+											"id": "body_wet",
+											"invertAxis": "xy",
+											"translate": [0, -18, 0],
+											"boxes": [
+												{
+													"coordinates": [-4, 10, -2, 8, 14, 2],
+													"uvNorth": [11, 50, 19, 64],
+													"uvEast": [9, 50, 11, 64],
+													"uvWest": [19, 50, 21, 64],
+													"sizeAdd": 0.25
+												}
+											]
+										},
+										{
+											"id": "body_dead",
+											"invertAxis": "xy",
+											"translate": [0, -18, 0],
+											"boxes": [
+												{
+													"coordinates": [-4, 10, -2, 8, 14, 2],
+													"uvNorth": [75, 50, 83, 64],
+													"uvEast": [73, 50, 75, 64],
+													"uvWest": [83, 50, 85, 64],
+													"sizeAdd": 0.25
+												}
+											]
+										},
+										{
+											"id": "quiver",
+											"invertAxis": "xy",
+											"translate": [3, 4.5, 4.1],
+											"rotate": [0, 0, -45],
+											"texture": "textures/entity/skeleton/skeleton_armor.png",
+											"boxes": [
+												{"coordinates": [-2, -8, -1.5, 4, 8, 3], "textureOffset": [24, 17]}
+											],
+											"submodels": [
+												{
+													"id": "arrow",
+													"invertAxis": "xy",
+													"translate": [0.23846, -2.11731, -0.1],
+													"rotate": [0, 0, -45],
+													"boxes": [
+														{
+															"coordinates": [-2.03846, 0.19231, -0.5, 2, 1, 1],
+															"uvNorth": [128, 1, 126, 0],
+															"uvEast": [127, 1, 128, 0],
+															"uvSouth": [126, 1, 128, 0],
+															"uvWest": [126, 1, 127, 0],
+															"uvUp": [126, 1, 128, 0],
+															"uvDown": [126, 1, 128, 0]
+														},
+														{
+															"coordinates": [-3.03846, 1.19231, -0.5, 2, 1, 1],
+															"uvNorth": [127, 2, 125, 1],
+															"uvEast": [126, 2, 127, 1],
+															"uvSouth": [125, 2, 127, 1],
+															"uvWest": [125, 2, 126, 1],
+															"uvUp": [125, 2, 127, 1],
+															"uvDown": [125, 2, 127, 1]
+														},
+														{
+															"coordinates": [-5.03846, 2.19231, -0.5, 3, 2, 1],
+															"uvNorth": [126, 4, 123, 2],
+															"uvEast": [125, 4, 126, 2],
+															"uvSouth": [123, 4, 126, 2],
+															"uvWest": [123, 4, 124, 2],
+															"uvUp": [123, 4, 126, 3],
+															"uvDown": [123, 3, 126, 2]
+														},
+														{
+															"coordinates": [-6.03846, 3.19231, -0.5, 1, 2, 1],
+															"uvNorth": [123, 5, 122, 3],
+															"uvSouth": [122, 5, 123, 3],
+															"uvWest": [122, 5, 123, 3],
+															"uvUp": [122, 5, 123, 4],
+															"uvDown": [122, 4, 123, 3]
+														},
+														{
+															"coordinates": [-5.03846, 4.19231, -0.5, 2, 1, 1],
+															"uvNorth": [125, 5, 123, 4],
+															"uvEast": [124, 5, 125, 4],
+															"uvSouth": [123, 5, 125, 4],
+															"uvUp": [123, 5, 125, 4]
+														},
+														{
+															"coordinates": [-5.03846, 5.19231, -0.5, 1, 1, 1],
+															"uvNorth": [124, 6, 123, 5],
+															"uvEast": [123, 6, 124, 5],
+															"uvSouth": [123, 6, 124, 5],
+															"uvWest": [123, 6, 124, 5],
+															"uvUp": [123, 6, 124, 5]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "body_armor",
+											"invertAxis": "xy",
+											"translate": [0, -18, 0],
+											"texture": "textures/entity/skeleton/skeleton_armor.png",
+											"boxes": [
+												{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [0, 16], "sizeAdd": 0.5}
+											]
+										}
+									]
+								},
+								{
+									"id": "left_arm2",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [-5, 22, 0],
+									"submodels": [
+										{
+											"id": "physics_left_arm",
+											"invertAxis": "xy",
+											"translate": [0, -4, 0],
+											"boxes": [
+												{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [40, 16]}
+											],
+											"submodels": [
+												{
+													"id": "left_arm_armor",
+													"invertAxis": "xy",
+													"translate": [5, -18, 0],
+													"texture": "textures/entity/skeleton/skeleton_armor.png",
+													"boxes": [
+														{"coordinates": [-7, 12.25, -2, 3, 12, 4], "textureOffset": [0, 32], "sizeAdd": 0.25}
+													],
+													"submodels": [
+														{
+															"id": "body_sub_11",
+															"invertAxis": "xy",
+															"translate": [0, 0, 0],
+															"boxes": [
+																{"coordinates": [-6, 12, -1, 2, 12, 2], "textureOffset": [0, 49], "sizeAdd": 0.25}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "right_arm2",
+									"invertAxis": "xy",
+									"translate": [5, 22, 0],
+									"submodels": [
+										{
+											"id": "physics_right_arm",
+											"invertAxis": "xy",
+											"translate": [0, -4, 0],
+											"boxes": [
+												{"coordinates": [-1, -6, -1, 2, 12, 2], "textureOffset": [40, 30]}
+											],
+											"submodels": [
+												{
+													"id": "right_arm_armor",
+													"invertAxis": "xy",
+													"translate": [-5, -18, 0],
+													"texture": "textures/entity/skeleton/skeleton_armor.png",
+													"boxes": [
+														{"coordinates": [4, 12.25, -2, 3, 12, 4], "textureOffset": [14, 32], "sizeAdd": 0.25},
+														{"coordinates": [4, 12, -1, 2, 12, 2], "textureOffset": [8, 49], "sizeAdd": 0.25}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "left_leg2",
+									"invertAxis": "xy",
+									"mirrorTexture": "u",
+									"translate": [-2, 12, 0.1],
+									"submodels": [
+										{
+											"id": "physics_left_leg",
+											"invertAxis": "xy",
+											"translate": [0, -6, -0.1],
+											"submodels": [
+												{
+													"id": "left_leg_dead",
+													"invertAxis": "xy",
+													"translate": [2, -6, 0],
+													"boxes": [
+														{"coordinates": [-3, 0, -1, 2, 12, 2], "textureOffset": [64, 16]}
+													]
+												},
+												{
+													"id": "left_leg_armor",
+													"invertAxis": "xy",
+													"translate": [2, -6, 0],
+													"texture": "textures/entity/skeleton/skeleton_armor.png",
+													"boxes": [
+														{"coordinates": [-3, 0, -1, 2, 12, 2], "textureOffset": [40, 34], "sizeAdd": 0.25}
+													]
+												},
+												{
+													"id": "left_leg_wet",
+													"invertAxis": "xy",
+													"translate": [2, -6, 0],
+													"boxes": [
+														{"coordinates": [-3, 0, -1, 2, 12, 2], "textureOffset": [0, 16]}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "right_leg2",
+									"invertAxis": "xy",
+									"translate": [2, 12, 0.1],
+									"submodels": [
+										{
+											"id": "physics_right_leg",
+											"invertAxis": "xy",
+											"translate": [0, -6, -0.1],
+											"submodels": [
+												{
+													"id": "right_leg_wet",
+													"invertAxis": "xy",
+													"translate": [-2, -6, 0],
+													"boxes": [
+														{"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [0, 30]},
+														{
+															"coordinates": [2, 7, -2, 2, 0, 4],
+															"uvUp": [2, 51, 0, 47]
+														}
+													]
+												},
+												{
+													"id": "right_leg_armor",
+													"invertAxis": "xy",
+													"translate": [-2, -6, 0],
+													"texture": "textures/entity/skeleton/skeleton_armor.png",
+													"boxes": [
+														{"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [32, 34], "sizeAdd": 0.25}
+													]
+												},
+												{
+													"id": "right_leg_dead",
+													"invertAxis": "xy",
+													"translate": [-2, -6, 0],
+													"boxes": [
+														{"coordinates": [1, 0, -1, 2, 12, 2], "textureOffset": [64, 30]},
+														{
+															"coordinates": [2, 7, -2, 2, 0, 4],
+															"uvUp": [66, 51, 64, 47]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "head2",
+									"invertAxis": "xy",
+									"translate": [0, 24, 0],
+									"submodels": [
+										{
+											"id": "physics_head",
+											"invertAxis": "xy",
+											"translate": [0, 4, 0],
+											"submodels": [
+												{
+													"id": "head_wet",
+													"invertAxis": "xy",
+													"translate": [0, -28, 0],
+													"boxes": [
+														{
+															"coordinates": [-4, 26, -4, 8, 6, 8],
+															"uvNorth": [8, 8, 16, 14],
+															"uvEast": [0, 8, 8, 14],
+															"uvSouth": [24, 8, 32, 14],
+															"uvWest": [16, 8, 24, 14],
+															"uvUp": [16, 8, 8, 0],
+															"uvDown": [24, 0, 16, 8]
+														},
+														{
+															"coordinates": [-5, 27, 2, 6, 0, 4],
+															"uvUp": [6, 55, 0, 51]
+														},
+														{
+															"coordinates": [-2, 25, -4, 4, 1, 0],
+															"uvNorth": [10, 14, 14, 15],
+															"uvSouth": [14, 14, 18, 15]
+														},
+														{
+															"coordinates": [-8, 30, -4, 9, 9, 0],
+															"uvNorth": [0, 55, 9, 64]
+														},
+														{
+															"coordinates": [-4, 24, -1, 8, 2, 5],
+															"uvNorth": [43, 5, 51, 7],
+															"uvEast": [38, 5, 43, 7],
+															"uvSouth": [56, 5, 64, 7],
+															"uvWest": [51, 5, 56, 7],
+															"uvUp": [51, 5, 43, 0],
+															"uvDown": [59, 0, 51, 5]
+														},
+														{
+															"coordinates": [-3, 24, -4, 6, 1, 3],
+															"uvNorth": [39, 3, 45, 4],
+															"uvEast": [36, 3, 39, 4],
+															"uvSouth": [48, 3, 54, 4],
+															"uvWest": [45, 3, 48, 4],
+															"uvUp": [45, 3, 39, 0],
+															"uvDown": [51, 0, 45, 3]
+														}
+													]
+												},
+												{
+													"id": "head_dead",
+													"invertAxis": "xy",
+													"translate": [0, -28, 0],
+													"boxes": [
+														{
+															"coordinates": [-4, 26, -4, 8, 6, 8],
+															"uvNorth": [72, 8, 80, 14],
+															"uvEast": [64, 8, 72, 14],
+															"uvSouth": [88, 8, 96, 14],
+															"uvWest": [80, 8, 88, 14],
+															"uvUp": [80, 8, 72, 0],
+															"uvDown": [88, 0, 80, 8]
+														},
+														{
+															"coordinates": [-8, 30, -4, 9, 9, 0],
+															"uvNorth": [64, 55, 73, 64]
+														},
+														{
+															"coordinates": [-5, 27, 2, 6, 0, 4],
+															"uvUp": [70, 55, 64, 51]
+														},
+														{
+															"coordinates": [-2, 25, -4, 4, 1, 0],
+															"uvNorth": [10, 14, 14, 15],
+															"uvSouth": [14, 14, 18, 15]
+														},
+														{
+															"coordinates": [-4, 24, -1, 8, 2, 5],
+															"uvNorth": [43, 5, 51, 7],
+															"uvEast": [38, 5, 43, 7],
+															"uvSouth": [56, 5, 64, 7],
+															"uvWest": [51, 5, 56, 7],
+															"uvUp": [51, 5, 43, 0],
+															"uvDown": [59, 0, 51, 5]
+														},
+														{
+															"coordinates": [-3, 24, -4, 6, 1, 3],
+															"uvNorth": [39, 3, 45, 4],
+															"uvEast": [36, 3, 39, 4],
+															"uvSouth": [48, 3, 54, 4],
+															"uvWest": [45, 3, 48, 4],
+															"uvUp": [45, 3, 39, 0],
+															"uvDown": [51, 0, 45, 3]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "health_bar",
+					"invertAxis": "xy",
+					"translate": [0, 40.5, 0],
+					"texture": "textures/entity/health_bar.png",
+					"textureSize": [16, 16],
+					"boxes": [
+						{
+							"coordinates": [-5, -0.5, 0, 10, 1, 0.01],
+							"uvNorth": [0, 0, 10, 1],
+							"uvSouth": [0, 1, 10, 2]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"translate.ty": "if(death_time > 0 && !is_in_water, frac(pos_y) * 16, 0)",
+					"rotate.rz": "if(death_time > 0, -torad(min(sqrt((death_time - 1) / 20 * 1.6), 1) * 90), 0)",
+					"render.shadow_opacity": "if(death_time == 0, 1, (20 - death_time) / 20)",
+					"render.shadow_size": 0.5,
+					"varb.wet": "is_in_water",
+					"health_bar.rx": "-player_rot_x",
+					"health_bar.ry": "torad(180) - rot_y + player_rot_y",
+					"var.health_bar": "max(if(is_hurt, 32, var.health_bar - 1 * frame_time), 0)",
+					"health_bar.visible": "var.health_bar > 0 && death_time == 0"
+				},
+				{
+					"head_dead.visible": "!varb.wet",
+					"head_wet.visible": "varb.wet",
+					"body_dead.visible": "!varb.wet",
+					"body_wet.visible": "varb.wet",
+					"left_leg_dead.visible": "!varb.wet",
+					"left_leg_wet.visible": "varb.wet",
+					"right_leg_dead.visible": "!varb.wet",
+					"right_leg_wet.visible": "varb.wet"
+				},
+				{
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"left_arm2.rx": "left_arm.rx",
+					"left_arm2.ry": "left_arm.ry",
+					"left_arm2.rz": "left_arm.rz",
+					"right_arm2.rx": "right_arm.rx",
+					"right_arm2.ry": "right_arm.ry",
+					"right_arm2.rz": "right_arm.rz",
+					"left_leg2.rx": "left_leg.rx",
+					"left_leg2.ry": "left_leg.ry",
+					"left_leg2.rz": "left_leg.rz",
+					"right_leg2.rx": "right_leg.rx",
+					"right_leg2.ry": "right_leg.ry",
+					"right_leg2.rz": "right_leg.rz"
+				},
+				{
+					"var.deltatime": "frame_time * 20",
+					"var.a": "if(is_in_water, 0.1, 1)"
+				},
+				{
+					"var.position_check_head_y": "var.position_head_y + var.velocity_head_tyz * sin(head2.rx + var.velocity_angle_head) * var.deltatime",
+					"var.position_check_head_z": "var.position_head_z + var.velocity_head_tyz * cos(head2.rx + var.velocity_angle_head) * var.deltatime",
+					"var.position_check_left_arm_y": "var.position_left_arm_y + var.velocity_left_arm_tyz * sin(left_arm2.rx + var.velocity_angle_left_arm) * var.deltatime",
+					"var.position_check_left_arm_z": "var.position_left_arm_z + var.velocity_left_arm_tyz * cos(left_arm2.rx + var.velocity_angle_left_arm) * var.deltatime",
+					"var.position_check_right_arm_y": "var.position_right_arm_y + var.velocity_right_arm_tyz * sin(right_arm2.rx + var.velocity_angle_right_arm) * var.deltatime",
+					"var.position_check_right_arm_z": "var.position_right_arm_z + var.velocity_right_arm_tyz * cos(right_arm2.rx + var.velocity_angle_right_arm) * var.deltatime",
+					"var.position_check_left_leg_y": "var.position_left_leg_y + var.velocity_left_leg_tyz * sin(left_leg2.rx + var.velocity_angle_left_leg) * var.deltatime",
+					"var.position_check_left_leg_z": "var.position_left_leg_z + var.velocity_left_leg_tyz * cos(left_leg2.rx + var.velocity_angle_left_leg) * var.deltatime",
+					"var.position_check_right_leg_y": "var.position_right_leg_y + var.velocity_right_leg_tyz * sin(right_leg2.rx + var.velocity_angle_right_leg) * var.deltatime",
+					"var.position_check_right_leg_z": "var.position_right_leg_z + var.velocity_right_leg_tyz * cos(right_leg2.rx + var.velocity_angle_right_leg) * var.deltatime"
+				},
+				{
+					"var.floor_head": "if(is_in_water || sqrt(var.position_check_head_y * var.position_check_head_y + var.position_check_head_z * var.position_check_head_z) * sin(-head2.rx + atan2(var.position_check_head_y, var.position_check_head_z)) <= 20 + 4 * sin(head2.rx + pi / 2), 1, 0.5)",
+					"var.floor_body": "if(is_in_water || var.position_body_y + var.velocity_body_ty * var.deltatime <= 14, 1, 0.5)",
+					"var.floor_left_arm": "if(is_in_water || sqrt(var.position_check_left_arm_y * var.position_check_left_arm_y + var.position_check_left_arm_z * var.position_check_left_arm_z) * sin(-left_arm2.rx + atan2(var.position_check_left_arm_y, var.position_check_left_arm_z)) <= 20 + -6 * sin(left_arm2.rx + pi / 2), 1, 0.5)",
+					"var.floor_right_arm": "if(is_in_water || sqrt(var.position_check_right_arm_y * var.position_check_right_arm_y + var.position_check_right_arm_z * var.position_check_right_arm_z) * sin(-right_arm2.rx + atan2(var.position_check_right_arm_y, var.position_check_right_arm_z)) <= 20 + -6 * sin(right_arm2.rx + pi / 2), 1, 0.5)",
+					"var.floor_left_leg": "if(is_in_water || sqrt(var.position_check_left_leg_y * var.position_check_left_leg_y + var.position_check_left_leg_z * var.position_check_left_leg_z) * sin(-left_leg2.rx + atan2(var.position_check_left_leg_y, var.position_check_left_leg_z)) <= 8 + -6 * sin(left_leg2.rx + pi / 2), 1, 0.5)",
+					"var.floor_right_leg": "if(is_in_water || sqrt(var.position_check_right_leg_y * var.position_check_right_leg_y + var.position_check_right_leg_z * var.position_check_right_leg_z) * sin(-right_leg2.rx + atan2(var.position_check_right_leg_y, var.position_check_right_leg_z)) <= 8 + -6 * sin(right_leg2.rx + pi / 2), 1, 0.5)"
+				},
+				{
+					"var.velocity_head_tx": "if(death_time > 0, var.floor_head * var.velocity_head_tx - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_head_ty": "if(death_time > 0, if(var.floor_head == 1, 1, -var.floor_head) * var.velocity_head_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_head_tz": "if(death_time > 0, var.floor_head * var.velocity_head_tz - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_head_rx": "if(death_time > 0, var.floor_head * var.velocity_head_rx - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_head_ry": "if(death_time > 0, var.floor_head * var.velocity_head_ry - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_head_tyz": "sqrt(var.velocity_head_ty * var.velocity_head_ty + var.velocity_head_tz * var.velocity_head_tz)",
+					"var.velocity_angle_head": "atan2(var.velocity_head_ty, var.velocity_head_tz)"
+				},
+				{
+					"var.position_head_x": "var.position_head_x + var.velocity_head_tx * var.deltatime",
+					"var.position_head_y": "var.position_head_y + var.velocity_head_tyz * sin(head2.rx + var.velocity_angle_head) * var.deltatime",
+					"var.position_head_z": "var.position_head_z + var.velocity_head_tyz * cos(head2.rx + var.velocity_angle_head) * var.deltatime",
+					"var.rotation_head_x": "var.rotation_head_x + var.velocity_head_rx * var.deltatime",
+					"var.rotation_head_y": "var.rotation_head_y + var.velocity_head_ry * var.deltatime"
+				},
+				{
+					"physics_head.tx": "var.position_head_x",
+					"physics_head.ty": "-4 + var.position_head_y",
+					"physics_head.tz": "var.position_head_z",
+					"physics_head.rx": "var.rotation_head_x",
+					"physics_head.ry": "var.rotation_head_y"
+				},
+				{
+					"var.velocity_body_tx": "if(death_time > 0, var.floor_body * var.velocity_body_tx - var.first_frame * (random() -0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_body_ty": "if(death_time > 0, if(var.floor_body == 1, 1, -var.floor_body) * var.velocity_body_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_body_tz": "if(death_time > 0, var.floor_body * var.velocity_body_tz - var.first_frame * (random() -0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_body_rx": "if(death_time > 0, var.floor_body * var.velocity_body_rx - var.first_frame * (random() -0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_body_ry": "if(death_time > 0, var.floor_body * var.velocity_body_ry - var.first_frame * (random() -0.5) * if(is_in_water, 0.5, 1), 0)"
+				},
+				{
+					"var.position_body_x": "var.position_body_x + var.velocity_body_tx * var.deltatime",
+					"var.position_body_y": "var.position_body_y + var.velocity_body_ty * var.deltatime",
+					"var.position_body_z": "var.position_body_z + var.velocity_body_tz * var.deltatime",
+					"var.rotation_body_x": "var.rotation_body_x + var.velocity_body_rx * var.deltatime",
+					"var.rotation_body_y": "var.rotation_body_y + var.velocity_body_ry * var.deltatime"
+				},
+				{
+					"physics_body.tx": "var.position_body_x",
+					"physics_body.ty": "-18 + var.position_body_y",
+					"physics_body.tz": "var.position_body_z",
+					"physics_body.rx": "var.rotation_body_x",
+					"physics_body.ry": "var.rotation_body_y"
+				},
+				{
+					"var.velocity_left_arm_tx": "if(death_time > 0, var.floor_left_arm * var.velocity_left_arm_tx - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_left_arm_ty": "if(death_time > 0, if(var.floor_left_arm == 1, 1, -var.floor_left_arm) * var.velocity_left_arm_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_left_arm_tz": "if(death_time > 0, var.floor_left_arm * var.velocity_left_arm_tz - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_left_arm_rx": "if(death_time > 0, var.floor_left_arm * var.velocity_left_arm_rx - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_left_arm_ry": "if(death_time > 0, var.floor_left_arm * var.velocity_left_arm_ry - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_left_arm_tyz": "sqrt(var.velocity_left_arm_ty * var.velocity_left_arm_ty + var.velocity_left_arm_tz * var.velocity_left_arm_tz)",
+					"var.velocity_angle_left_arm": "atan2(var.velocity_left_arm_ty, var.velocity_left_arm_tz)"
+				},
+				{
+					"var.position_left_arm_x": "var.position_left_arm_x + var.velocity_left_arm_tx * var.deltatime",
+					"var.position_left_arm_y": "var.position_left_arm_y + var.velocity_left_arm_tyz * sin(left_arm2.rx + var.velocity_angle_left_arm) * var.deltatime",
+					"var.position_left_arm_z": "var.position_left_arm_z + var.velocity_left_arm_tyz * cos(left_arm2.rx + var.velocity_angle_left_arm) * var.deltatime",
+					"var.rotation_left_arm_x": "var.rotation_left_arm_x + var.velocity_left_arm_rx * var.deltatime",
+					"var.rotation_left_arm_y": "var.rotation_left_arm_y + var.velocity_left_arm_ry * var.deltatime"
+				},
+				{
+					"physics_left_arm.tx": "var.position_left_arm_x",
+					"physics_left_arm.ty": "4 + var.position_left_arm_y",
+					"physics_left_arm.tz": "var.position_left_arm_z",
+					"physics_left_arm.rx": "var.rotation_left_arm_x",
+					"physics_left_arm.ry": "var.rotation_left_arm_y"
+				},
+				{
+					"var.velocity_right_arm_tx": "if(death_time > 0, var.floor_right_arm * var.velocity_right_arm_tx - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_right_arm_ty": "if(death_time > 0, if(var.floor_right_arm == 1, 1, -var.floor_right_arm) * var.velocity_right_arm_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_right_arm_tz": "if(death_time > 0, var.floor_right_arm * var.velocity_right_arm_tz - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_right_arm_rx": "if(death_time > 0, var.floor_right_arm * var.velocity_right_arm_rx - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_right_arm_ry": "if(death_time > 0, var.floor_right_arm * var.velocity_right_arm_ry - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_right_arm_tyz": "sqrt(var.velocity_right_arm_ty * var.velocity_right_arm_ty + var.velocity_right_arm_tz * var.velocity_right_arm_tz)",
+					"var.velocity_angle_right_arm": "atan2(var.velocity_right_arm_ty, var.velocity_right_arm_tz)"
+				},
+				{
+					"var.position_right_arm_x": "var.position_right_arm_x + var.velocity_right_arm_tx * var.deltatime",
+					"var.position_right_arm_y": "var.position_right_arm_y + var.velocity_right_arm_tyz * sin(right_arm2.rx + var.velocity_angle_right_arm) * var.deltatime",
+					"var.position_right_arm_z": "var.position_right_arm_z + var.velocity_right_arm_tyz * cos(right_arm2.rx + var.velocity_angle_right_arm) * var.deltatime",
+					"var.rotation_right_arm_x": "var.rotation_right_arm_x + var.velocity_right_arm_rx * var.deltatime",
+					"var.rotation_right_arm_y": "var.rotation_right_arm_y + var.velocity_right_arm_ry * var.deltatime"
+				},
+				{
+					"physics_right_arm.tx": "var.position_right_arm_x",
+					"physics_right_arm.ty": "4 + var.position_right_arm_y",
+					"physics_right_arm.tz": "var.position_right_arm_z",
+					"physics_right_arm.rx": "var.rotation_right_arm_x",
+					"physics_right_arm.ry": "var.rotation_right_arm_y"
+				},
+				{
+					"var.velocity_left_leg_tx": "if(death_time > 0, var.floor_left_leg * var.velocity_left_leg_tx - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_left_leg_ty": "if(death_time > 0, if(var.floor_left_leg == 1, 1, -var.floor_left_leg) * var.velocity_left_leg_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_left_leg_tz": "if(death_time > 0, var.floor_left_leg * var.velocity_left_leg_tz - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_left_leg_rx": "if(death_time > 0, var.floor_left_leg * var.velocity_left_leg_rx - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_left_leg_ry": "if(death_time > 0, var.floor_left_leg * var.velocity_left_leg_ry - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_left_leg_tyz": "sqrt(var.velocity_left_leg_ty * var.velocity_left_leg_ty + var.velocity_left_leg_tz * var.velocity_left_leg_tz)",
+					"var.velocity_angle_left_leg": "atan2(var.velocity_left_leg_ty, var.velocity_left_leg_tz)"
+				},
+				{
+					"var.position_left_leg_x": "var.position_left_leg_x + var.velocity_left_leg_tx * var.deltatime",
+					"var.position_left_leg_y": "var.position_left_leg_y + var.velocity_left_leg_tyz * sin(left_leg2.rx + var.velocity_angle_left_leg) * var.deltatime",
+					"var.position_left_leg_z": "var.position_left_leg_z + var.velocity_left_leg_tyz * cos(left_leg2.rx + var.velocity_angle_left_leg) * var.deltatime",
+					"var.rotation_left_leg_x": "var.rotation_left_leg_x + var.velocity_left_leg_rx * var.deltatime",
+					"var.rotation_left_leg_y": "var.rotation_left_leg_y + var.velocity_left_leg_ry * var.deltatime"
+				},
+				{
+					"physics_left_leg.tx": "var.position_left_leg_x",
+					"physics_left_leg.ty": "6 + var.position_left_leg_y",
+					"physics_left_leg.tz": "var.position_left_leg_z",
+					"physics_left_leg.rx": "var.rotation_left_leg_x",
+					"physics_left_leg.ry": "var.rotation_left_leg_y"
+				},
+				{
+					"var.velocity_right_leg_tx": "if(death_time > 0, var.floor_right_leg * var.velocity_right_leg_tx - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_right_leg_ty": "if(death_time > 0, if(var.floor_right_leg == 1, 1, -var.floor_right_leg) * var.velocity_right_leg_ty + var.a * var.deltatime - var.first_frame * random() * if(is_in_water, 1, 2), 0)",
+					"var.velocity_right_leg_tz": "if(death_time > 0, var.floor_right_leg * var.velocity_right_leg_tz - var.first_frame * (random() - 0.5) * if(is_in_water, 2, 4), 0)",
+					"var.velocity_right_leg_rx": "if(death_time > 0, var.floor_right_leg * var.velocity_right_leg_rx - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_right_leg_ry": "if(death_time > 0, var.floor_right_leg * var.velocity_right_leg_ry - var.first_frame * (random() - 0.5) * if(is_in_water, 0.5, 1), 0)",
+					"var.velocity_right_leg_tyz": "sqrt(var.velocity_right_leg_ty * var.velocity_right_leg_ty + var.velocity_right_leg_tz * var.velocity_right_leg_tz)",
+					"var.velocity_angle_right_leg": "atan2(var.velocity_right_leg_ty, var.velocity_right_leg_tz)"
+				},
+				{
+					"var.position_right_leg_x": "var.position_right_leg_x + var.velocity_right_leg_tx * var.deltatime",
+					"var.position_right_leg_y": "var.position_right_leg_y + var.velocity_right_leg_tyz * sin(right_leg2.rx + var.velocity_angle_right_leg) * var.deltatime",
+					"var.position_right_leg_z": "var.position_right_leg_z + var.velocity_right_leg_tyz * cos(right_leg2.rx + var.velocity_angle_right_leg) * var.deltatime",
+					"var.rotation_right_leg_x": "var.rotation_right_leg_x + var.velocity_right_leg_rx * var.deltatime",
+					"var.rotation_right_leg_y": "var.rotation_right_leg_y + var.velocity_right_leg_ry * var.deltatime"
+				},
+				{
+					"physics_right_leg.tx": "var.position_right_leg_x",
+					"physics_right_leg.ty": "6 + var.position_right_leg_y",
+					"physics_right_leg.tz": "var.position_right_leg_z",
+					"physics_right_leg.rx": "var.rotation_right_leg_x",
+					"physics_right_leg.ry": "var.rotation_right_leg_y"
+				},
+				{
+					"var.first_frame": "if(death_time > 0, 0, 1)"
+				},
+				{
+					"var.by_ewan_howell": 0
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

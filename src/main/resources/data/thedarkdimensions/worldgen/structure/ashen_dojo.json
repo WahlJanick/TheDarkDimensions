@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#thedarkdimensions:has_ashen_dojo",
+  "start_pool": "thedarkdimensions:ashen_dojo",
+  "size": 1,
+  "start_height": {
+    "absolute": -1
+  },
+  "max_distance_from_center": 40,
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false,
+  "spawn_overrides": {},
+  "project_start_to_heightmap": "WORLD_SURFACE_WG"
+}

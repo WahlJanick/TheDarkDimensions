@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "MAM",
+    " E "
+  ],
+  "key": {
+    "E": "thedarkdimensions:essentialium",
+    "M": "thedarkdimensions:metalinium_ingot",
+    "A": "thedarkdimensions:improved_amethyst"
+  },
+  "result": {
+    "id": "thedarkdimensions:astral_prism"
+  }
+}

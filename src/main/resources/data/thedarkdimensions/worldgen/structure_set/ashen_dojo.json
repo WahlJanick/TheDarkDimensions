@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedarkdimensions:ashen_dojo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 14,
+    "salt": 263029
+  }
+}

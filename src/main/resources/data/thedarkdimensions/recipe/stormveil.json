@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:lightning_core",
+    "thedarkdimensions:solar_essence",
+    "thedarkdimensions:basic_katana"
+  ],
+  "result": {
+    "id": "thedarkdimensions:stormveil"
+  }
+}

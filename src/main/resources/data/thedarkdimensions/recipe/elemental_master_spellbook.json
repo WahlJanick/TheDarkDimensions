@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ECE",
+    "CBC",
+    "MCM"
+  ],
+  "key": {
+    "E": "thedarkdimensions:essentialium",
+    "C": "thedarkdimensions:spell_core",
+    "B": "thedarkdimensions:spell_book",
+    "M": "thedarkdimensions:essentialium_infused_metalinium_ingot"
+  },
+  "result": {
+    "id": "thedarkdimensions:elemental_master_spellbook"
+  }
+}

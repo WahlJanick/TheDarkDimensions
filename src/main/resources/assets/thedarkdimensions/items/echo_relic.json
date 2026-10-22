@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/echo_relic",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 11394276
+      }
+    ]
+  }
+}

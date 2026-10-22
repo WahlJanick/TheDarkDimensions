@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entities": [
+    "minecraft:player"
+  ],
+  "slots": [
+    "chest/dark_spellbook",
+    "chest/dark_focus",
+    "chest/dark_talisman",
+    "feet/dark_windstep",
+    "chest/dark_back_tool",
+    "chest/dark_glider"
+  ]
+}

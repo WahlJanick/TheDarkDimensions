@@ -1,0 +1,11 @@
+{
+  "type": "thedarkdimensions:echo_depths",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "thedarkdimensions:burned_realm",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "thedarkdimensions:echo_fields"
+    }
+  }
+}

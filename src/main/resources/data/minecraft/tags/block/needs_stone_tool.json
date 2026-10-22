@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:burned_iron_ore",
+    "thedarkdimensions:deepslate_metalinium_ore",
+    "thedarkdimensions:hard_stone_copper_ore",
+    "thedarkdimensions:hard_stone_iron_ore",
+    "thedarkdimensions:hard_stone_lapis_ore",
+    "thedarkdimensions:metalinium_ore",
+    "thedarkdimensions:solar_forge",
+    "thedarkdimensions:fire_cave_stone_copper_ore",
+    "thedarkdimensions:fire_cave_stone_iron_ore",
+    "thedarkdimensions:fire_cave_stone_lapis_ore",
+    "thedarkdimensions:water_cave_stone_copper_ore",
+    "thedarkdimensions:water_cave_stone_iron_ore",
+    "thedarkdimensions:water_cave_stone_lapis_ore",
+    "thedarkdimensions:glowing_cave_stone_copper_ore",
+    "thedarkdimensions:glowing_cave_stone_iron_ore",
+    "thedarkdimensions:glowing_cave_stone_lapis_ore"
+  ]
+}

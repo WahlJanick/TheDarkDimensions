@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thedarkdimensions:block/fire_cave_stone_diamond_ore3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thedarkdimensions:improving_template"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": [
+          "thedarkdimensions:improve_diamond_pickaxe"
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_template",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thedarkdimensions:improve_diamond_pickaxe"
+    ]
+  }
+}

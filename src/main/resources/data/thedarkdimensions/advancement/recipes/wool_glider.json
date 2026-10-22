@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "thedarkdimensions:wool_glider"
+    ]
+  }
+}

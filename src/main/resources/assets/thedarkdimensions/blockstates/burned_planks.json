@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/burned_planks"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_01"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_02"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_03"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_04"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_05"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_06"
+      },
+      {
+        "model": "thedarkdimensions:block/burned_planks_07"
+      }
+    ]
+  }
+}

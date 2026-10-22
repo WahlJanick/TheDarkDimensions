@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:soul_essence",
+    "thedarkdimensions:fire_core"
+  ],
+  "result": {
+    "id": "thedarkdimensions:soul_core"
+  }
+}

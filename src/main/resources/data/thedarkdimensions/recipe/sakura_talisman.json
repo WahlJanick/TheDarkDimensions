@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "EJE",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "E": "thedarkdimensions:japanese_essence",
+    "J": "minecraft:cherry_sapling"
+  },
+  "result": {
+    "id": "thedarkdimensions:sakura_talisman"
+  }
+}

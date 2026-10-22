@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "kind=ember": {
+      "model": "thedarkdimensions:block/dormant_runestone_ember"
+    },
+    "kind=tide": {
+      "model": "thedarkdimensions:block/dormant_runestone_tide"
+    },
+    "kind=radiance": {
+      "model": "thedarkdimensions:block/dormant_runestone_radiance"
+    }
+  }
+}

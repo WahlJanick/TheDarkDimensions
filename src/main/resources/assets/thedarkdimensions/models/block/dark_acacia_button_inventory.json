@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "thedarkdimensions:block/dark_acacia_planks"
+  }
+}

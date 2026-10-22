@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedarkdimensions:block/dark_acacia_slab"
+    },
+    "type=double": {
+      "model": "thedarkdimensions:block/dark_acacia_slab_double"
+    },
+    "type=top": {
+      "model": "thedarkdimensions:block/dark_acacia_slab_top"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/essentialium_cluster",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 2641092
+      }
+    ]
+  }
+}

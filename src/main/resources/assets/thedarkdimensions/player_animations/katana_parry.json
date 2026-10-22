@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "name": "katana_parry",
+  "author": "The Dark Dimensions",
+  "emote": {
+    "isLoop": "false",
+    "beginTick": 0,
+    "endTick": 6,
+    "stopTick": 10,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "EASEOUTQUAD",
+        "torso": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "EASEOUTQUAD",
+        "torso": {
+          "yaw": -0.15,
+          "pitch": -0.08
+        },
+        "rightArm": {
+          "pitch": -1.15,
+          "roll": -0.35
+        },
+        "leftArm": {
+          "pitch": -0.8,
+          "roll": 0.3
+        }
+      },
+      {
+        "tick": 5,
+        "easing": "EASEINOUTQUAD",
+        "torso": {
+          "yaw": -0.15,
+          "pitch": -0.08
+        },
+        "rightArm": {
+          "pitch": -1.15,
+          "roll": -0.35
+        },
+        "leftArm": {
+          "pitch": -0.8,
+          "roll": 0.3
+        }
+      },
+      {
+        "tick": 9,
+        "easing": "EASEINOUTQUAD",
+        "torso": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:spell_core",
+    "thedarkdimensions:chronus_orb"
+  ],
+  "result": {
+    "id": "thedarkdimensions:chronus_core"
+  }
+}

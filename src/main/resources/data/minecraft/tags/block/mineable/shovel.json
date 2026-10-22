@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:black_sand",
+    "minecraft:dirt",
+    "thedarkdimensions:burned_gravel"
+  ]
+}

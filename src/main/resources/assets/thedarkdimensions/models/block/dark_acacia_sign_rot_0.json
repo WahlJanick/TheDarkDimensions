@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sign_rot_0",
+  "textures": {
+    "all": "minecraft:block/acacia_sign",
+    "particle": "thedarkdimensions:block/dark_acacia_planks"
+  }
+}

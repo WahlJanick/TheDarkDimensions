@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ERE",
+    "MSM",
+    "HHH"
+  ],
+  "key": {
+    "E": "thedarkdimensions:essentialium",
+    "R": "thedarkdimensions:empty_runestone",
+    "M": "thedarkdimensions:metalinium_ingot",
+    "S": "thedarkdimensions:spelltable",
+    "H": "thedarkdimensions:hard_stone"
+  },
+  "result": {
+    "id": "thedarkdimensions:runic_binding_bench"
+  }
+}

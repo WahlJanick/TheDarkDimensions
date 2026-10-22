@@ -1,0 +1,8 @@
+{
+  "mode": "Built-in Imagegen edit, nearest pixel sampling to 16x16 and palette matching",
+  "references": ["Improved Stick (reinforced_stick.png)", "original iron_warrior_axe.png"],
+  "prompt": "Gray Improved-Stick-like shaft with dark crimson grip wrapping matching the Warrior Axe; partly gray and partly red, gray bottom tip, transparent 16x16 pixel art, no glow or blur.",
+  "output": "warrior_stick.png",
+  "red_palette": [[54,22,21],[86,33,33],[104,40,42]],
+  "palette_source": "All three red shades occur in the original iron_warrior_axe.png."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PP",
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": "thedarkdimensions:burned_planks"
+  },
+  "result": {
+    "id": "thedarkdimensions:dark_acacia_door",
+    "count": 3
+  }
+}

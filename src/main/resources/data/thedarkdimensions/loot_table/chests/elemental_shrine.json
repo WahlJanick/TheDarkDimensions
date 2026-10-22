@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:glowing_honey",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:improved_amethyst",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:water_core",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:fire_core",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:hellsblade"
+        }
+      ],
+      "condition": {
+        "chance": 0.025,
+        "type": "minecraft:random_chance"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:empty_runestone",
+    "thedarkdimensions:fire_core",
+    "thedarkdimensions:soul_essence"
+  ],
+  "result": {
+    "id": "thedarkdimensions:ember_rune"
+  }
+}

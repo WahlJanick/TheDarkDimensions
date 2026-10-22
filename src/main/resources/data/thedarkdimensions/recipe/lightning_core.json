@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "LRL",
+    " L "
+  ],
+  "key": {
+    "L": "#thedarkdimensions:core_lightning_rods",
+    "R": "thedarkdimensions:empty_runestone"
+  },
+  "result": {
+    "id": "thedarkdimensions:lightning_core"
+  }
+}

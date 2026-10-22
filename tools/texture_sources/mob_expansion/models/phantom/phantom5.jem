@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"texture": "textures/entity/ghost.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0.5, -5, 0],
+			"animations": [
+				{
+					"billboard.rx": "-player_rot_x",
+					"billboard.ry": "torad(180) - rot_y + player_rot_y",
+					"head_reverse.rx": "-head.rx",
+					"head_reverse.ry": "-head.ry"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0.5, -3.75, 8],
+			"submodels": [
+				{
+					"id": "head_reverse",
+					"invertAxis": "xy",
+					"translate": [-0.5, 3.75, -8],
+					"submodels": [
+						{
+							"id": "billboard",
+							"invertAxis": "xy",
+							"translate": [0, 4.25, 0],
+							"boxes": [
+								{
+									"coordinates": [-16, -16, 0, 32, 32, 0],
+									"uvNorth": [0, 0, 32, 32]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [2.5, -7, 8]
+		},
+		{
+			"part": "left_wing_tip",
+			"id": "left_wing_tip",
+			"invertAxis": "xy",
+			"translate": [8.5, -7, 8]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-2.5, -7, 8]
+		},
+		{
+			"part": "right_wing_tip",
+			"id": "right_wing_tip",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-8.5, -7, 8]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0.5, -7, -1]
+		},
+		{
+			"part": "tail2",
+			"id": "tail2",
+			"invertAxis": "xy",
+			"translate": [0.5, -6.5, -7]
+		}
+	]
+}

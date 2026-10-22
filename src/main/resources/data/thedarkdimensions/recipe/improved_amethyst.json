@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PAP",
+    "PDP"
+  ],
+  "key": {
+    "P": "minecraft:glass_pane",
+    "A": "minecraft:amethyst_shard",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "thedarkdimensions:improved_amethyst"
+  }
+}

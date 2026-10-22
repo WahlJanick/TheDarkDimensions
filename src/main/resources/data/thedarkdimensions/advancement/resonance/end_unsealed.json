@@ -1,0 +1,33 @@
+{
+  "parent": "thedarkdimensions:exploration/enter_realm",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "end_progression.thedarkdimensions.title"
+    },
+    "description": {
+      "translate": "end_progression.thedarkdimensions.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ender_eye"
+    ]
+  }
+}

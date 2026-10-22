@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:japanese_essence",
+          "modifier": [
+            {
+              "count": 2,
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:ashes",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:empty_runestone",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

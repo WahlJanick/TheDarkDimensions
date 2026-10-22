@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:solar_essence",
+  "base": "minecraft:blast_furnace",
+  "addition": "minecraft:coal_block",
+  "result": {
+    "id": "thedarkdimensions:solar_forge"
+  }
+}

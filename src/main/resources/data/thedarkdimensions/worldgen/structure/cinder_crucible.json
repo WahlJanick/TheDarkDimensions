@@ -1,0 +1,11 @@
+{
+  "type": "thedarkdimensions:cave_trial",
+  "kind": "ember",
+  "biomes": [
+    "thedarkdimensions:fire_cave"
+  ],
+  "start_pool": "thedarkdimensions:cinder_crucible",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

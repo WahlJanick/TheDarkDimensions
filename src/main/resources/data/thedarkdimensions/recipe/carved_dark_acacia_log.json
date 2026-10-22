@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:burned_log",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "thedarkdimensions:carved_dark_acacia_log"
+  }
+}

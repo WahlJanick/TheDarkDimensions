@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/deepslate_metalinium_ore",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 7523280
+      }
+    ]
+  }
+}

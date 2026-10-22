@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  E",
+    " E ",
+    "S  "
+  ],
+  "key": {
+    "E": "thedarkdimensions:blood_core",
+    "S": "thedarkdimensions:basic_katana"
+  },
+  "result": {
+    "id": "thedarkdimensions:bloodgrief"
+  }
+}

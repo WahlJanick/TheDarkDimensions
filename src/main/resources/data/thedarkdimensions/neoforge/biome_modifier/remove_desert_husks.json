@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "entity_types": [
+    "minecraft:husk"
+  ]
+}

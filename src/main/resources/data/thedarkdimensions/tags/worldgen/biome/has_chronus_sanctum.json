@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:ash_wastes",
+    "thedarkdimensions:charred_forest",
+    "thedarkdimensions:echo_fields",
+    "thedarkdimensions:crystal_hollows",
+    "thedarkdimensions:veilwood"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thedarkdimensions:block/dark_acacia_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thedarkdimensions:block/burned_log"
+    },
+    "axis=z": {
+      "model": "thedarkdimensions:block/dark_acacia_log_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "thedarkdimensions:cave_trial",
+  "kind": "radiance",
+  "biomes": [
+    "thedarkdimensions:glowing_cave"
+  ],
+  "start_pool": "thedarkdimensions:luminous_hollow",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

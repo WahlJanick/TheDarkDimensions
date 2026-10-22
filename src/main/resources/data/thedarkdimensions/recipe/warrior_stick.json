@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:leather",
+    "thedarkdimensions:reinforced_stick",
+    "thedarkdimensions:creeperblood"
+  ],
+  "result": {
+    "id": "thedarkdimensions:warrior_stick"
+  }
+}

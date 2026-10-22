@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:improving_template",
+  "base": "#thedarkdimensions:fishable_wooden_axes",
+  "addition": "#thedarkdimensions:fish_ingredients",
+  "result": {
+    "id": "thedarkdimensions:wooden_fish_axe"
+  }
+}

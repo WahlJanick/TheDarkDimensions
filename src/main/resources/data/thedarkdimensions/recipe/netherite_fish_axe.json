@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:improving_template",
+  "base": "#thedarkdimensions:fishable_netherite_axes",
+  "addition": "#thedarkdimensions:fish_ingredients",
+  "result": {
+    "id": "thedarkdimensions:netherite_fish_axe"
+  }
+}

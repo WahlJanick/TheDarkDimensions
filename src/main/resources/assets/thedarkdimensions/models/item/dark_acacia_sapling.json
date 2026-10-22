@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thedarkdimensions:block/dark_acacia_sapling"
+  }
+}

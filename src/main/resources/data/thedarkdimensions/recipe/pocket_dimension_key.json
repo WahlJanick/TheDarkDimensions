@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    " N ",
+    "GEG"
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "G": "minecraft:gold_ingot",
+    "E": "thedarkdimensions:solar_essence"
+  },
+  "result": {
+    "id": "thedarkdimensions:pocket_dimension_key"
+  }
+}

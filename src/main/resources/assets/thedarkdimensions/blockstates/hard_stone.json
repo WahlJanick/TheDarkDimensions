@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/hard_stone"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone2"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone3"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone4"
+      }
+    ]
+  }
+}

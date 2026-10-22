@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MBM",
+    "MS ",
+    " W "
+  ],
+  "key": {
+    "M": "#minecraft:planks",
+    "B": "#minecraft:logs",
+    "S": "thedarkdimensions:reinforced_stick",
+    "W": "thedarkdimensions:warrior_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:wooden_warrior_axe"
+  }
+}

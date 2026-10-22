@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thedarkdimensions:block/improved_nether_portal_ns"
+    },
+    "axis=z": {
+      "model": "thedarkdimensions:block/improved_nether_portal_ew"
+    }
+  }
+}

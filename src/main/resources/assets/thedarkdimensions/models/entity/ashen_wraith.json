@@ -1,0 +1,878 @@
+{
+  "credit": "Consider supporting Barely Default to help keep the pack going - http://youtube.com/@MushirMickeyJoe/join",
+  "textureSize": [
+    128,
+    64
+  ],
+  "texture": "thedarkdimensions:textures/entity/ashen_wraith.png",
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [
+        0,
+        -24,
+        0
+      ],
+      "submodels": [
+        {
+          "id": "body",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            -2,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -3,
+                20,
+                -2,
+                6,
+                2,
+                1
+              ],
+              "textureOffset": [
+                14,
+                21
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                23,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                8,
+                21
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                21,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                24,
+                20
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                19,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                12,
+                27
+              ]
+            },
+            {
+              "coordinates": [
+                3,
+                19,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                6,
+                26
+              ]
+            },
+            {
+              "coordinates": [
+                3,
+                21,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                18,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                3,
+                23,
+                -2,
+                1,
+                1,
+                4
+              ],
+              "textureOffset": [
+                8,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                2,
+                23,
+                -2,
+                1,
+                1,
+                1
+              ],
+              "textureOffset": [
+                8,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                23,
+                -2,
+                1,
+                1,
+                1
+              ],
+              "textureOffset": [
+                8,
+                18
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                23,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                30,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                1,
+                21,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                44,
+                9
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                21,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                24,
+                6
+              ]
+            },
+            {
+              "coordinates": [
+                1,
+                19,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                36,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                19,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                45,
+                11
+              ]
+            },
+            {
+              "coordinates": [
+                1,
+                23,
+                1,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                24,
+                4
+              ]
+            },
+            {
+              "coordinates": [
+                -1,
+                14,
+                1,
+                2,
+                10,
+                1
+              ],
+              "textureOffset": [
+                31,
+                19
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                18,
+                -2,
+                1,
+                1,
+                1
+              ],
+              "textureOffset": [
+                8,
+                23
+              ]
+            },
+            {
+              "coordinates": [
+                2,
+                18,
+                -2,
+                1,
+                1,
+                1
+              ],
+              "textureOffset": [
+                8,
+                21
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                22,
+                -2,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                14,
+                18
+              ]
+            },
+            {
+              "coordinates": [
+                1,
+                22,
+                -2,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                14,
+                16
+              ]
+            },
+            {
+              "coordinates": [
+                -1,
+                18,
+                -2,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                18,
+                27
+              ]
+            },
+            {
+              "coordinates": [
+                1,
+                17,
+                -2,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                18,
+                29
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                17,
+                -2,
+                2,
+                1,
+                1
+              ],
+              "textureOffset": [
+                23,
+                28
+              ]
+            },
+            {
+              "coordinates": [
+                -2,
+                19,
+                -2,
+                4,
+                1,
+                1
+              ],
+              "textureOffset": [
+                17,
+                25
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                9,
+                -2,
+                8,
+                14,
+                4
+              ],
+              "uvNorth": [
+                36,
+                32,
+                44,
+                46
+              ],
+              "uvEast": [
+                32,
+                32,
+                36,
+                46
+              ],
+              "uvSouth": [
+                48,
+                32,
+                56,
+                46
+              ],
+              "uvWest": [
+                44,
+                32,
+                48,
+                46
+              ],
+              "sizeAdd": 0.2
+            }
+          ]
+        },
+        {
+          "id": "head2",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            22,
+            0
+          ],
+          "boxes": [
+            {
+              "coordinates": [
+                -4,
+                4,
+                -4,
+                8,
+                6,
+                8
+              ],
+              "uvNorth": [
+                8,
+                8,
+                16,
+                14
+              ],
+              "uvEast": [
+                0,
+                8,
+                8,
+                14
+              ],
+              "uvSouth": [
+                24,
+                8,
+                32,
+                14
+              ],
+              "uvWest": [
+                16,
+                8,
+                24,
+                14
+              ],
+              "uvDown": [
+                24,
+                0,
+                16,
+                8
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                1,
+                -1,
+                8,
+                3,
+                5
+              ],
+              "textureOffset": [
+                38,
+                0
+              ]
+            },
+            {
+              "coordinates": [
+                -3,
+                0,
+                -4,
+                6,
+                4,
+                3
+              ],
+              "textureOffset": [
+                72,
+                0
+              ]
+            },
+            {
+              "coordinates": [
+                -4,
+                -2,
+                -4,
+                8,
+                12,
+                8
+              ],
+              "textureOffset": [
+                0,
+                32
+              ],
+              "sizeAdd": 0.25
+            }
+          ]
+        },
+        {
+          "id": "arms",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            21,
+            1
+          ],
+          "rotate": [
+            90,
+            0,
+            0
+          ],
+          "submodels": [
+            {
+              "id": "left_arm",
+              "invertAxis": "xy",
+              "mirrorTexture": "u",
+              "translate": [
+                -6,
+                1,
+                1
+              ],
+              "rotate": [
+                80,
+                0,
+                0
+              ],
+              "boxes": [
+                {
+                  "coordinates": [
+                    -0.5,
+                    -13,
+                    -1,
+                    2,
+                    12,
+                    2
+                  ],
+                  "uvNorth": [
+                    68,
+                    6,
+                    66,
+                    18
+                  ],
+                  "uvEast": [
+                    70,
+                    6,
+                    68,
+                    18
+                  ],
+                  "uvSouth": [
+                    72,
+                    6,
+                    70,
+                    18
+                  ],
+                  "uvWest": [
+                    66,
+                    6,
+                    64,
+                    18
+                  ],
+                  "uvDown": [
+                    68,
+                    4,
+                    70,
+                    6
+                  ]
+                },
+                {
+                  "coordinates": [
+                    -1.5,
+                    -11.75,
+                    -2,
+                    4,
+                    12,
+                    4
+                  ],
+                  "uvNorth": [
+                    80,
+                    36,
+                    76,
+                    48
+                  ],
+                  "uvEast": [
+                    84,
+                    36,
+                    80,
+                    48
+                  ],
+                  "uvSouth": [
+                    88,
+                    36,
+                    84,
+                    48
+                  ],
+                  "uvWest": [
+                    76,
+                    36,
+                    72,
+                    48
+                  ],
+                  "uvUp": [
+                    76,
+                    36,
+                    80,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "right_arm",
+              "invertAxis": "xy",
+              "translate": [
+                5.5,
+                1,
+                1
+              ],
+              "rotate": [
+                80,
+                0,
+                0
+              ],
+              "boxes": [
+                {
+                  "coordinates": [
+                    -1,
+                    -13,
+                    -1,
+                    2,
+                    12,
+                    2
+                  ],
+                  "uvNorth": [
+                    66,
+                    20,
+                    68,
+                    32
+                  ],
+                  "uvEast": [
+                    64,
+                    20,
+                    66,
+                    32
+                  ],
+                  "uvSouth": [
+                    70,
+                    20,
+                    72,
+                    32
+                  ],
+                  "uvWest": [
+                    68,
+                    20,
+                    70,
+                    32
+                  ],
+                  "uvDown": [
+                    70,
+                    18,
+                    68,
+                    20
+                  ]
+                },
+                {
+                  "coordinates": [
+                    -2,
+                    -11.75,
+                    -2,
+                    4,
+                    12,
+                    4
+                  ],
+                  "uvNorth": [
+                    60,
+                    36,
+                    64,
+                    48
+                  ],
+                  "uvEast": [
+                    56,
+                    36,
+                    60,
+                    48
+                  ],
+                  "uvSouth": [
+                    68,
+                    36,
+                    72,
+                    48
+                  ],
+                  "uvWest": [
+                    64,
+                    36,
+                    68,
+                    48
+                  ],
+                  "uvUp": [
+                    64,
+                    36,
+                    60,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "head_inverse",
+          "invertAxis": "xy",
+          "translate": [
+            0,
+            22,
+            0
+          ],
+          "submodels": [
+            {
+              "id": "health_bar",
+              "invertAxis": "xy",
+              "translate": [
+                0,
+                15.5,
+                0
+              ],
+              "texture": "textures/entity/health_bar.png",
+              "textureSize": [
+                16,
+                16
+              ],
+              "boxes": [
+                {
+                  "coordinates": [
+                    -5,
+                    -0.5,
+                    0,
+                    10,
+                    1,
+                    0.01
+                  ],
+                  "uvNorth": [
+                    0,
+                    0,
+                    10,
+                    1
+                  ],
+                  "uvSouth": [
+                    0,
+                    1,
+                    10,
+                    2
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "stick1",
+      "id": "stick1",
+      "invertAxis": "xy",
+      "translate": [
+        -7,
+        -26,
+        7
+      ]
+    },
+    {
+      "part": "stick2",
+      "id": "stick2",
+      "invertAxis": "xy",
+      "translate": [
+        7,
+        -26,
+        7
+      ]
+    },
+    {
+      "part": "stick3",
+      "id": "stick3",
+      "invertAxis": "xy",
+      "translate": [
+        7,
+        -26,
+        -7
+      ]
+    },
+    {
+      "part": "stick4",
+      "id": "stick4",
+      "invertAxis": "xy",
+      "translate": [
+        -7,
+        -26,
+        -7
+      ]
+    },
+    {
+      "part": "stick5",
+      "id": "stick5",
+      "invertAxis": "xy",
+      "translate": [
+        -5,
+        -22,
+        5
+      ]
+    },
+    {
+      "part": "stick6",
+      "id": "stick6",
+      "invertAxis": "xy",
+      "translate": [
+        5,
+        -22,
+        5
+      ]
+    },
+    {
+      "part": "stick7",
+      "id": "stick7",
+      "invertAxis": "xy",
+      "translate": [
+        5,
+        -22,
+        -5
+      ]
+    },
+    {
+      "part": "stick8",
+      "id": "stick8",
+      "invertAxis": "xy",
+      "translate": [
+        -5,
+        -22,
+        -5
+      ]
+    },
+    {
+      "part": "stick9",
+      "id": "stick9",
+      "invertAxis": "xy",
+      "translate": [
+        -3,
+        -14,
+        3
+      ]
+    },
+    {
+      "part": "stick10",
+      "id": "stick10",
+      "invertAxis": "xy",
+      "translate": [
+        3,
+        -14,
+        3
+      ]
+    },
+    {
+      "part": "stick11",
+      "id": "stick11",
+      "invertAxis": "xy",
+      "translate": [
+        3,
+        -14,
+        -3
+      ]
+    },
+    {
+      "part": "stick12",
+      "id": "stick12",
+      "invertAxis": "xy",
+      "translate": [
+        -3,
+        -14,
+        -3
+      ]
+    }
+  ],
+  "visibilityRules": {},
+  "base": "blaze"
+}

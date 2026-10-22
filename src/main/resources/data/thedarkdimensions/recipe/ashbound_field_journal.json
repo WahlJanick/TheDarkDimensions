@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "thedarkdimensions:ashes",
+    "thedarkdimensions:empty_runestone"
+  ],
+  "result": {
+    "id": "thedarkdimensions:ashbound_field_journal"
+  }
+}

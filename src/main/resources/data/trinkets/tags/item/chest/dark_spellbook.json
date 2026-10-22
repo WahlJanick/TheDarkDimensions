@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:fire_spell_book",
+    "thedarkdimensions:water_spell_book",
+    "thedarkdimensions:lightning_spell_book",
+    "thedarkdimensions:chronus_spell_book",
+    "thedarkdimensions:blood_spell_book",
+    "thedarkdimensions:soul_spell_book",
+    "thedarkdimensions:ender_chest_spell_book",
+    "thedarkdimensions:elemental_spell_book",
+    "thedarkdimensions:elemental_master_spellbook"
+  ]
+}

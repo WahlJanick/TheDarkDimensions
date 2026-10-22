@@ -1,0 +1,259 @@
+{
+  "type": "thedarkdimensions:burned_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "thedarkdimensions:burned_realm",
+    "biome_source": {
+      "type": "thedarkdimensions:veilwood",
+      "delegate": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "thedarkdimensions:ash_wastes",
+            "parameters": {
+              "temperature": 0,
+              "humidity": -0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                -1,
+                0.3499
+              ],
+              "weirdness": [
+                -1,
+                1
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:charred_forest",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                -1,
+                0.3499
+              ],
+              "weirdness": [
+                -1,
+                1
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:crystal_hollows",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                -1,
+                0.3499
+              ],
+              "weirdness": [
+                -1,
+                1
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:fire_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": -0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                0.35,
+                1.0
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:water_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                0.35,
+                1.0
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:glowing_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                0.35,
+                1.0
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:fire_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": -0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                -1.0,
+                -0.35
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:water_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                -1.0,
+                -0.35
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:glowing_cave",
+            "parameters": {
+              "temperature": 0,
+              "humidity": 0.8,
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                -1.0,
+                -0.35
+              ],
+              "offset": 0
+            }
+          },
+          {
+            "biome": "thedarkdimensions:normal_caves",
+            "parameters": {
+              "temperature": 0,
+              "humidity": [
+                -1.0,
+                1.0
+              ],
+              "continentalness": [
+                -1,
+                1
+              ],
+              "erosion": [
+                -1,
+                1
+              ],
+              "depth": [
+                0.35,
+                2.0
+              ],
+              "weirdness": [
+                -0.3499,
+                0.3499
+              ],
+              "offset": 0
+            }
+          }
+        ]
+      },
+      "forest": "thedarkdimensions:veilwood"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "credit": "Barely Default / Mickey Joe; original CEM model credits are preserved in each imported model.",
+  "textures": {
+    "chronus_mage": "illager/illusioner.png",
+    "ashen_wraith": "wraith.png",
+    "bonewing": "blood_phantom.png",
+    "veilwood_spider": "spider/bogged_cave_spider.png",
+    "drowned_sentinel": "skeleton/sunken_skeleton.png",
+    "cinder_broodmother": "spider/royal_spider.png",
+    "lantern_wisp": "ghost.png",
+    "briar_whisperer": "illager/whisperer.png",
+    "dune_stalker": "spider/relatively_improved_scorpion.png",
+    "fire_mage": "illager/evoker.png"
+  }
+}

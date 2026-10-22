@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AAA"
+  ],
+  "key": {
+    "A": "thedarkdimensions:improved_amethyst",
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "thedarkdimensions:improved_echo_shard"
+  }
+}

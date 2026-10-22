@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MBM",
+    "MS ",
+    " W "
+  ],
+  "key": {
+    "M": "minecraft:gold_ingot",
+    "B": "minecraft:gold_block",
+    "S": "thedarkdimensions:reinforced_stick",
+    "W": "thedarkdimensions:warrior_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:golden_warrior_axe"
+  }
+}

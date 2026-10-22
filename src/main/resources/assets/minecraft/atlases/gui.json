@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "thedarkdimensions:gui/sprites/container/slots/glider",
+      "sprite": "thedarkdimensions:container/slots/glider"
+    }
+  ]
+}

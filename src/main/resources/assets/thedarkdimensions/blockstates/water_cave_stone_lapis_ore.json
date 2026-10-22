@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/water_cave_stone_lapis_ore"
+      },
+      {
+        "model": "thedarkdimensions:block/water_cave_stone_lapis_ore2"
+      },
+      {
+        "model": "thedarkdimensions:block/water_cave_stone_lapis_ore3"
+      },
+      {
+        "model": "thedarkdimensions:block/water_cave_stone_lapis_ore4"
+      }
+    ]
+  }
+}

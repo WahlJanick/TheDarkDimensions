@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "thedarkdimensions:block/dark_acacia_sapling"
+  }
+}

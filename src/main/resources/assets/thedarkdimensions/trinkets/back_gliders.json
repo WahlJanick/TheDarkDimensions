@@ -1,0 +1,12 @@
+{
+  "priority": 0,
+  "target": [
+    "thedarkdimensions:wool_glider",
+    "thedarkdimensions:devils_wings"
+  ],
+  "render": [
+    {
+      "type": "wings"
+    }
+  ]
+}

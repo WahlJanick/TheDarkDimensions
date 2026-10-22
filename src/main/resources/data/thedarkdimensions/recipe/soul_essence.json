@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:soul_sand",
+    "minecraft:blackstone"
+  ],
+  "result": {
+    "id": "thedarkdimensions:soul_essence"
+  }
+}

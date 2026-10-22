@@ -1,0 +1,17 @@
+{
+  "amount": 1,
+  "order": 203,
+  "max_stack_size": 1,
+  "icon": "minecraft:container/slot/sword",
+  "validator_predicates": [
+    "thedarkdimensions:back_tool"
+  ],
+  "quick_move_predicates": [
+    "thedarkdimensions:back_tool"
+  ],
+  "interact_equipable_predicates": [
+    "thedarkdimensions:back_tool"
+  ],
+  "cosmetic_slots": false,
+  "is_vanity": true
+}

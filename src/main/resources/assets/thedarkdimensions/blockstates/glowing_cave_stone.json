@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/glowing_cave_stone"
+      },
+      {
+        "model": "thedarkdimensions:block/glowing_cave_stone2"
+      },
+      {
+        "model": "thedarkdimensions:block/glowing_cave_stone3"
+      },
+      {
+        "model": "thedarkdimensions:block/glowing_cave_stone4"
+      }
+    ]
+  }
+}

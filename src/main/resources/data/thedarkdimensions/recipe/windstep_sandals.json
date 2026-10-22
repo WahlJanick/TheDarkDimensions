@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "J J",
+    "L L",
+    "S S"
+  ],
+  "key": {
+    "J": "thedarkdimensions:japanese_essence",
+    "L": "minecraft:leather",
+    "S": "thedarkdimensions:reinforced_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:windstep_sandals"
+  }
+}

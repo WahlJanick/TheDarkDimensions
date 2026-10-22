@@ -1,0 +1,32 @@
+{
+  "basic_katana": {
+    "source": "Basic Katana/minecraft/models/item/iron_sword.json",
+    "original_elements": 5,
+    "emissive_layers": 0,
+    "credit": "Made with Blockbench"
+  },
+  "mindshifter": {
+    "source": "Mindshifter Katana/minecraft/citresewn/cit/katana/mindshifter.json",
+    "original_elements": 8,
+    "emissive_layers": 8,
+    "credit": "Made by OnixTheCat"
+  },
+  "mindshifter_off": {
+    "source": "Mindshifter Katana/minecraft/citresewn/cit/katana/mindshifter_off.json",
+    "original_elements": 12,
+    "emissive_layers": 12,
+    "credit": "Made by OnixTheCat"
+  },
+  "hellsblade": {
+    "source": "Hells Blade/minecraft/citresewn/cit/murasama/murasama.json",
+    "original_elements": 12,
+    "emissive_layers": 12,
+    "credit": "Made by OnixTheCat"
+  },
+  "hellsblade_off": {
+    "source": "Hells Blade/minecraft/citresewn/cit/murasama/murasama_off.json",
+    "original_elements": 14,
+    "emissive_layers": 14,
+    "credit": "Made by OnixTheCat"
+  }
+}

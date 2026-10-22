@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:empty_runestone",
+    "thedarkdimensions:water_core",
+    "thedarkdimensions:japanese_essence"
+  ],
+  "result": {
+    "id": "thedarkdimensions:tide_rune"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "thedarkdimensions:block/dark_acacia_door_bottom",
+    "top": "thedarkdimensions:block/dark_acacia_door_top"
+  }
+}

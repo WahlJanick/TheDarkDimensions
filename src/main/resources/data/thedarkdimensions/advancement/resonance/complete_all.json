@@ -1,0 +1,33 @@
+{
+  "parent": "thedarkdimensions:exploration/enter_realm",
+  "display": {
+    "icon": {
+      "id": "thedarkdimensions:chronus_rune"
+    },
+    "title": {
+      "translate": "item.thedarkdimensions.chronus_rune"
+    },
+    "description": {
+      "translate": "resonance.thedarkdimensions.requires_chronus"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thedarkdimensions:chronus_rune"
+    ]
+  }
+}

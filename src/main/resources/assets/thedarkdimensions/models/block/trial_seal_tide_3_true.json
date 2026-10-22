@@ -1,0 +1,138 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "thedarkdimensions:block/hard_stone",
+    "stone": "thedarkdimensions:block/hard_stone",
+    "inlay": "minecraft:block/prismarine_bricks"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#stone"
+        },
+        "up": {
+          "texture": "#stone"
+        },
+        "north": {
+          "texture": "#stone"
+        },
+        "south": {
+          "texture": "#stone"
+        },
+        "west": {
+          "texture": "#stone"
+        },
+        "east": {
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        4,
+        6
+      ],
+      "to": [
+        4,
+        13,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#inlay"
+        },
+        "up": {
+          "texture": "#inlay"
+        },
+        "north": {
+          "texture": "#inlay"
+        },
+        "south": {
+          "texture": "#inlay"
+        },
+        "west": {
+          "texture": "#inlay"
+        },
+        "east": {
+          "texture": "#inlay"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        4,
+        6
+      ],
+      "to": [
+        8,
+        13,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#inlay"
+        },
+        "up": {
+          "texture": "#inlay"
+        },
+        "north": {
+          "texture": "#inlay"
+        },
+        "south": {
+          "texture": "#inlay"
+        },
+        "west": {
+          "texture": "#inlay"
+        },
+        "east": {
+          "texture": "#inlay"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        4,
+        6
+      ],
+      "to": [
+        12,
+        13,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#inlay"
+        },
+        "up": {
+          "texture": "#inlay"
+        },
+        "north": {
+          "texture": "#inlay"
+        },
+        "south": {
+          "texture": "#inlay"
+        },
+        "west": {
+          "texture": "#inlay"
+        },
+        "east": {
+          "texture": "#inlay"
+        }
+      }
+    }
+  ]
+}

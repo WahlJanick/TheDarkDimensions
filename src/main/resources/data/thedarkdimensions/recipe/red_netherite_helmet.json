@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:red_netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_helmet",
+  "addition": "thedarkdimensions:red_netherite_ingot",
+  "result": {
+    "id": "thedarkdimensions:red_netherite_helmet"
+  }
+}

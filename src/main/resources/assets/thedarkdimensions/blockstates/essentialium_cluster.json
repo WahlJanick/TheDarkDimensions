@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thedarkdimensions:block/essentialium_cluster"
+    },
+    "facing=down": {
+      "model": "thedarkdimensions:block/essentialium_cluster",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "thedarkdimensions:block/essentialium_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thedarkdimensions:block/essentialium_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "thedarkdimensions:block/essentialium_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "thedarkdimensions:block/essentialium_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

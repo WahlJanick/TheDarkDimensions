@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "B": "thedarkdimensions:creeperblood",
+    "C": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "thedarkdimensions:devils_tear"
+  }
+}

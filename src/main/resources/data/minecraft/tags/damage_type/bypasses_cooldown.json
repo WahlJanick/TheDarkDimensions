@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:hellsblade_pulse",
+    "thedarkdimensions:katana_finisher",
+    "thedarkdimensions:stormveil_arc",
+    "thedarkdimensions:arcane_pulse"
+  ]
+}

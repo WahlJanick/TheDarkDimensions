@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#thedarkdimensions:essence_blood",
+    "#thedarkdimensions:essence_blood",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "thedarkdimensions:blood_essence",
+    "count": 2
+  }
+}

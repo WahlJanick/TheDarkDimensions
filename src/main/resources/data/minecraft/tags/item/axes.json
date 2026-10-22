@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:copper_fish_axe",
+    "thedarkdimensions:copper_warrior_axe",
+    "thedarkdimensions:diamond_fish_axe",
+    "thedarkdimensions:diamond_warrior_axe",
+    "thedarkdimensions:enhanced_diamond_axe",
+    "thedarkdimensions:golden_fish_axe",
+    "thedarkdimensions:golden_warrior_axe",
+    "thedarkdimensions:iron_fish_axe",
+    "thedarkdimensions:iron_warrior_axe",
+    "thedarkdimensions:netherite_fish_axe",
+    "thedarkdimensions:netherite_warrior_axe",
+    "thedarkdimensions:perfected_netherite_axe",
+    "thedarkdimensions:red_netherite_axe",
+    "thedarkdimensions:red_netherite_improved_axe",
+    "thedarkdimensions:red_netherite_warrior_axe",
+    "thedarkdimensions:stone_fish_axe",
+    "thedarkdimensions:stone_warrior_axe",
+    "thedarkdimensions:throwable_axe",
+    "thedarkdimensions:wooden_fish_axe",
+    "thedarkdimensions:wooden_warrior_axe"
+  ]
+}

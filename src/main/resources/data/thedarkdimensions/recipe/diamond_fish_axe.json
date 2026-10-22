@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:improving_template",
+  "base": "#thedarkdimensions:fishable_diamond_axes",
+  "addition": "#thedarkdimensions:fish_ingredients",
+  "result": {
+    "id": "thedarkdimensions:diamond_fish_axe"
+  }
+}

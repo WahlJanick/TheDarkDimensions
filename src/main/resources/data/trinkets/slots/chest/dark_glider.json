@@ -1,0 +1,16 @@
+{
+  "amount": 1,
+  "order": 204,
+  "max_stack_size": 1,
+  "icon": "thedarkdimensions:container/slots/glider",
+  "validator_predicates": [
+    "thedarkdimensions:back_glider"
+  ],
+  "quick_move_predicates": [
+    "thedarkdimensions:back_glider"
+  ],
+  "interact_equipable_predicates": [
+    "thedarkdimensions:back_glider"
+  ],
+  "cosmetic_slots": false
+}

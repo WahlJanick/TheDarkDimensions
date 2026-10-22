@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "thedarkdimensions:souleater"
+    },
+    "title": {
+      "translate": "advancement.thedarkdimensions.sovereign_defeated.title"
+    },
+    "description": {
+      "translate": "advancement.thedarkdimensions.sovereign_defeated.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "thedarkdimensions:exploration/enter_realm",
+  "rewards": {
+    "experience": 100
+  }
+}

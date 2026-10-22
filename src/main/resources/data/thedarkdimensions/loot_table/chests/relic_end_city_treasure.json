@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thedarkdimensions:mindshifter"
+        }
+      ],
+      "condition": {
+        "chance": 0.04,
+        "type": "minecraft:random_chance"
+      }
+    }
+  ]
+}

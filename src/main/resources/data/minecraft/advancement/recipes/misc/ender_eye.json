@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "ready": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "ready"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ender_eye"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "thedarkdimensions:cave_trial",
+  "kind": "tide",
+  "biomes": [
+    "thedarkdimensions:water_cave"
+  ],
+  "start_pool": "thedarkdimensions:sunken_reliquary",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

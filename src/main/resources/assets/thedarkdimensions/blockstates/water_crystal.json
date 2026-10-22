@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thedarkdimensions:block/water_crystal"
+    },
+    "facing=down": {
+      "model": "thedarkdimensions:block/water_crystal",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "thedarkdimensions:block/water_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thedarkdimensions:block/water_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "thedarkdimensions:block/water_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "thedarkdimensions:block/water_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

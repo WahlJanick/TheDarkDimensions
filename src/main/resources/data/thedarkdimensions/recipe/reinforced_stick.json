@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:improved_stick",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "thedarkdimensions:reinforced_stick"
+  }
+}

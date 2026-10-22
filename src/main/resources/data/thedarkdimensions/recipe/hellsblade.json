@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:basic_katana",
+    "thedarkdimensions:fire_core",
+    "thedarkdimensions:fire_core",
+    "minecraft:redstone_block",
+    "minecraft:netherite_scrap"
+  ],
+  "result": {
+    "id": "thedarkdimensions:hellsblade"
+  }
+}

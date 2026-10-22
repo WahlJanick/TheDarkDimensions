@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP"
+  ],
+  "key": {
+    "P": "thedarkdimensions:burned_planks"
+  },
+  "result": {
+    "id": "thedarkdimensions:dark_acacia_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "thedarkdimensions:diamond_warrior_axe",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "thedarkdimensions:netherite_warrior_axe"
+  }
+}

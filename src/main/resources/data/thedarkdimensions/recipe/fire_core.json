@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BRB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "R": "thedarkdimensions:empty_runestone"
+  },
+  "result": {
+    "id": "thedarkdimensions:fire_core"
+  }
+}

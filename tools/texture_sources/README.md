@@ -1,0 +1,39 @@
+# Texture sources — 0.5.0
+
+0.5.0: Essentialium uses unchanged Vanilla amethyst cluster, bud, block and shard sprites with a dark-blue runtime tint (0x284cc4); exact pixels and UV layout are preserved. Chronus Orb and its burned-stone ore texture were generated with the imagegen skill: original two-cell sheet in `generated/chronus_atlas.png`, final prompt in `generated/chronus_prompt.txt`, exported nearest-neighbor to native 16×16 PNGs. The Spelltable model reuses Vanilla enchanting-table geometry/textures with a matching 12-pixel block shape. `tools/generate_minerals.py` applies all five chapters.
+
+0.4.1: Elemental crystals now reference Minecraft's original amethyst_cluster texture and tinted_cross model directly. Block/item tint sources supply orange, blue and yellow without resampling or redrawing pixels. All entity renderers inherit Vanilla texture selection and geometry; getModelTint provides colour filters. This fixes the generated UV layout mismatch, including baby/angry/nectar variants. Previously generated entity skins and crystal cube textures remain archived but are no longer referenced by their renderers/models.
+
+The artist's newly supplied `improved_diamond_pickaxe.png` and `improved_diamond_shovel.png` replace the previous generated versions byte for byte. Their archived names are `items/enhanced_diamond_pickaxe.png` and `items/enhanced_diamond_shovel.png` to preserve existing registry/model identifiers.
+
+Chapter four uses eight block textures, four item icons and three entity skins generated with the imagegen skill. Original sheets/skins and the final prompt set are in `generated/`; see `generated/cave_prompts.json`. Native Witch/Husk/Bee UV references are archived in `entity_references/`. `tools/prepare_cave_assets.py` exports sheets to native asset sizes; spawn egg icons come from Minecraft 26.3. `tools/generate_caves.py` regenerates all four chapters and applies every archived source last.
+
+`items/` contains the supplied artist images under Minecraft resource names. Existing `enhanced_diamond_*` IDs remain stable for saved worlds, while display names now say Improved Diamond. `user_mapping.json` records original names.
+
+`double_spear_original.pdn` is the original file supplied with a .png extension. Its two 16×16 BGRA pixel layers were decoded and flattened into `items/double_spear.png`; this is a format conversion, not a redraw.
+
+`generated/` contains outputs from the built-in image_gen tool using the imagegen skill. `blocks/` contains the 16×16 texture tiles cut from the generated atlas. Missing diamond pickaxe/shovel sprites were prepared at 16×16 using nearest-neighbor sampling. Existing user-made sprites were copied without resizing or recoloring. Sources are applied last by `tools/generate_upgrades.py`.
+
+## Final prompt set (built-in tool)
+
+### Burned block atlas
+
+Create a single production-ready Minecraft burned-dimension texture ATLAS, exactly 4 columns by 5 rows, equal square cells, no gutters, no borders, no labels, no perspective. Pixel art, each cell conceptually 16x16 chunky pixels enlarged with sharp nearest-neighbor edges. Seamlessly tileable block faces. All textures must be clearly readable and lighter than black: main midtones charcoal/slate gray, warm ash taupe, muted violet; shadows still readable. Keep Minecraft vanilla visual language, no blur or photographic noise. Cell order left to right: row1 burned dirt (warm gray crumbly soil), burned gravel (large varied cool gray pebbles), burned stone (smooth slate patches), burned deepslate (horizontal dark slate layers). row2 burned cobblestone (large light gray irregular stones with cracks), burned bedrock (jagged contrasting charcoal broken pattern), burned log bark (vertical silver-charred bark), burned planks (warm gray horizontal wood planks and joints). row3 burned leaves (readable olive gray leafy clusters fully opaque), burned stone bricks (obvious lighter gray rectangular masonry), burned coal ore (black coal chunks in lighter burned stone), burned iron ore (rust tan mineral chunks in lighter burned stone). row4 improved amethyst ore (large bright purple crystals in slate stone), ember stone (orange glowing fissures in cool charcoal stone), echo crystal (large teal violet crystalline facets), echo relic (ancient gray stone with bright turquoise geometric rune). row5 improved obsidian (purple-black angular glossy rock with bright lilac edges), black sand (fine medium dark gray granular grains, visibly finer than gravel), burned log end grain (gray wooden circular rings), reserved extra ash stone variation. Entire image only the atlas and absolutely no text. Exact rigid rectangular grid. Intended to cut these 20 cells into individual game textures. Do not include objects or scenes.
+
+### Improved Diamond Pickaxe
+
+Create exactly ONE Minecraft inventory item sprite: an Improved Diamond Pickaxe. Use reference 1 for the precise pickaxe silhouette and reference 2 for turquoise diamond metal palette and black improved handle. 16x16 pixel art composition, chunky sharp pixel boundaries, no smoothing, no text, no shadows outside sprite, transparent background. The handle is near-black charcoal extending diagonally from lower-left to upper-right. At the top a clearly curved turquoise/cyan diamond pickaxe head with pale aqua highlight. Match vanilla Minecraft item art and the provided small pixel references. Center the whole 16x16 sprite expanded uniformly, preserve plenty of transparent margins, no multiple views.
+
+References: artist-provided perfected_netherite_pickaxe.png and improveddiamond_axe.png.
+
+### Improved Diamond Shovel
+
+Create exactly ONE Improved Diamond Shovel Minecraft item sprite, with the same exact diagonal silhouette as the provided perfected netherite shovel reference. 16x16 pixel art composition, enlarged with hard chunky pixel edges. Near-black improved stick handle from bottom-left to upper-right; small clearly oval/diamond shaped turquoise and cyan shovel blade near upper-right with pale aqua highlights. Match the reference tiny Minecraft item style. Transparent background, absolutely no text, no outside shadow, no multiple views, no soft blur. Center full sprite with transparent margin.
+
+References: artist-provided perfected_netherite_shovel.png and improveddiamond_axe.png.
+
+0.7/0.8: Clean resource pass. New cores, spell books and three luminous stone tiles were created with the built-in imagegen tool, with exact prompt manifests and originals in generated/clean_07. prepare_clean_assets.py exports each selected image nearest-neighbour to 16×16, with no smoothing. Terrain reuses the original Vanilla 16×16 grids and applies runtime model colours. Animated native magma contributes one unchanged 16×16 frame. Artist tool textures remain intact.
+
+Supplied katana resource pack: credited by its pack.mcmeta to Fikket. Models, UVs, display transforms, five 32×32 animation frames and animation metadata are preserved; only namespaced texture references change. Sources are archived under katanas. New registry/display names: algidgleam → frostgleam; bloodygrief → bloodgrief; faintquasar → souleater. Use generate_katanas.py for the final complete resource generation.
+
+0.33.0: `relic_katanas/` archives the three user-supplied folders Basic Katana, Mindshifter Katana and Hells Blade. Basic uses the iron design; all seven supplied material variants are retained in the archive. Mindshifter/Hells Blade model credits identify OnixTheCat. Original base meshes, UVs, display transforms, 64×64 textures and both 32×256 animated sheets/metadata are preserved byte-for-byte where applicable. Additional native light-emission layers use the original `_e` images; native item switches preserve sheathed off-hand variants for either dominant hand. No images were resized or recolored. `generate_relic_katanas.py` regenerates the entire resource chain and applies these assets last.

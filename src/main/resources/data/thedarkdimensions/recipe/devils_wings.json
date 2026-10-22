@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SDS",
+    "BEB",
+    " T "
+  ],
+  "key": {
+    "S": "thedarkdimensions:soul_core",
+    "D": "thedarkdimensions:devils_eye",
+    "B": "thedarkdimensions:red_netherite_ingot",
+    "E": "minecraft:elytra",
+    "T": "thedarkdimensions:devils_tear"
+  },
+  "result": {
+    "id": "thedarkdimensions:devils_wings",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "built-in imagegen",
+  "export": "RGBA nearest-neighbor resize to 16x16; originals preserved",
+  "chronus_infused_metalinium_ingot": {
+    "original": "exec-b0e76a6a-d602-4fa5-b930-5c8482e55dc6.png",
+    "prompt": "Use case: stylized-concept. Asset type: Minecraft inventory item sprite, Chronus Infused Metalinium Ingot. Create exactly one clean pixel art metal ingot centered on a transparent square canvas, classic Minecraft diagonal ingot silhouette, designed on exactly a 16 by 16 logical pixel grid enlarged uniformly to fill canvas. Cyan-gray metal outline and edges like Metalinium, dark charcoal center with a tiny black hole sphere and restrained violet luminous rim indicating infusion with the Chronus Orb. Clear readable stepped pixel shapes, limited palette, crisp hard edges, no smooth gradients, no text, no labels, no shadows outside sprite. Only one ingot; it must downscale cleanly to 16x16."
+  },
+  "red_netherite_upgrade_smithing_template": {
+    "original": "exec-e1b2a648-3834-4c64-94ac-4b87d5d1137f.png",
+    "reference": "red-netherite/assets/minecraft/textures/item/netherite_upgrade_smithing_template.png",
+    "prompt": "Use case: precise-object-edit. Asset type: Minecraft Blood Netherite Upgrading Template inventory sprite. Edit this template keeping exactly its Minecraft upgrade template stone silhouette and 16x16 logical pixel raster. Keep the dark red arrow; replace silver-gray rim and stone highlights with warm metallic gold, for a red-and-gold upgrade template. One centered template, same position and size as reference, transparent background preserved. Crisp native pixel art, limited palette, no lettering, no additional objects. Uniform enlarged 16x16 pixels suitable for nearest-neighbor export."
+  }
+}

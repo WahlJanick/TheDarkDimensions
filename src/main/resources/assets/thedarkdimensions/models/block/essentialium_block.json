@@ -1,0 +1,58 @@
+{
+  "parent": "block/block",
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#down",
+          "cullface": "down",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#up",
+          "cullface": "up",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#north",
+          "cullface": "north",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#south",
+          "cullface": "south",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#west",
+          "cullface": "west",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#east",
+          "cullface": "east",
+          "tintindex": 0
+        }
+      }
+    }
+  ],
+  "textures": {
+    "down": "minecraft:block/amethyst_block",
+    "up": "minecraft:block/amethyst_block",
+    "north": "minecraft:block/amethyst_block",
+    "south": "minecraft:block/amethyst_block",
+    "west": "minecraft:block/amethyst_block",
+    "east": "minecraft:block/amethyst_block",
+    "particle": "minecraft:block/amethyst_block"
+  }
+}

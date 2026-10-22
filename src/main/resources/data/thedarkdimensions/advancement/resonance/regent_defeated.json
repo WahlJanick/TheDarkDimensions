@@ -1,0 +1,28 @@
+{
+  "parent": "thedarkdimensions:resonance/complete_all",
+  "display": {
+    "icon": {
+      "id": "thedarkdimensions:regents_heart"
+    },
+    "title": {
+      "translate": "finale.thedarkdimensions.adv_title"
+    },
+    "description": {
+      "translate": "finale.thedarkdimensions.adv_description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "built-in imagegen",
+  "export": "RGBA nearest-neighbor resize to 16x16, archived originals preserved",
+  "devils_tear": {
+    "original": "exec-17b108e1-b2f5-4d66-9a39-73d37d05c0ea.png",
+    "prompt": "Minecraft inventory item sprite Devil's Tear: one classic ghast tear shape, recolored deep crimson red with tiny bright scarlet highlights and dark red outline, clean native Minecraft pixel art on exactly a 16x16 logical pixel grid enlarged uniformly on a transparent square canvas. Centered single object, no glow haze, no smooth gradients, no text. Crisp limited palette, readable small icon."
+  },
+  "devils_eye": {
+    "original": "exec-480465ef-aadf-4df2-9a5e-5cda10ea9699.png",
+    "prompt": "Minecraft inventory item sprite Devil's Eye: one classic Eye of Ender icon, deep crimson red iris surrounding a narrow black pupil, bright scarlet highlights and dark burgundy outer outline. Clean native Minecraft pixel art on exactly a 16x16 logical grid enlarged uniformly on a transparent square canvas. Centered single round eye, no glow haze, no smooth gradients, no text. Crisp limited palette, readable small icon."
+  }
+}

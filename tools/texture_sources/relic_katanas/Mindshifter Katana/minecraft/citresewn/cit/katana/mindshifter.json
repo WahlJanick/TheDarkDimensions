@@ -1,0 +1,163 @@
+{
+	"credit": "Made by OnixTheCat",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "assets/minecraft/citresewn/cit/textures/mindshifter_katana",
+		"particle": "assets/minecraft/citresewn/cit/textures/mindshifter_katana"
+	},
+	"elements": [
+		{
+			"name": "blade",
+			"from": [7.95, 6, 7.25],
+			"to": [8.05, 31, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.75, -1, -0.75]},
+			"faces": {
+				"east": {"uv": [15.25, 0, 16, 12.5], "texture": "#0"},
+				"west": {"uv": [16, 0, 15.25, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7.5, -4, 7],
+			"to": [8.5, 5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 0, -0.5]},
+			"faces": {
+				"north": {"uv": [14, 2.25, 14.25, 6.75], "texture": "#0"},
+				"east": {"uv": [15, 2.25, 14, 6.75], "texture": "#0"},
+				"south": {"uv": [14.75, 2.25, 15, 6.75], "texture": "#0"},
+				"west": {"uv": [14, 2.25, 15, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_l2",
+			"from": [7.375, -4.125, 6.875],
+			"to": [8.625, 5.125, 9.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, -0.5]},
+			"faces": {
+				"north": {"uv": [12.75, 2.25, 13, 6.75], "texture": "#0"},
+				"east": {"uv": [13.75, 2.25, 12.75, 6.75], "texture": "#0"},
+				"south": {"uv": [13.5, 2.25, 13.75, 6.75], "texture": "#0"},
+				"west": {"uv": [12.75, 2.25, 13.75, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "upper_part",
+			"from": [7, 5, 6.5],
+			"to": [9, 6, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, -1, -0.5]},
+			"faces": {
+				"north": {"uv": [14, 7.75, 15, 8.25], "texture": "#0"},
+				"east": {"uv": [15, 7, 13.5, 7.5], "texture": "#0"},
+				"south": {"uv": [14, 7.75, 15, 8.25], "texture": "#0"},
+				"west": {"uv": [13.5, 7, 15, 7.5], "texture": "#0"},
+				"up": {"uv": [15, 10, 14, 8.5], "texture": "#0"},
+				"down": {"uv": [13.75, 8.5, 12.75, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "part",
+			"from": [7.25, -5, 6.75],
+			"to": [8.75, -4, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.25, -1, -0.75]},
+			"faces": {
+				"north": {"uv": [14.25, 1.5, 15, 2], "texture": "#0"},
+				"east": {"uv": [14, 1.5, 12.75, 2], "texture": "#0"},
+				"south": {"uv": [14.25, 1.5, 15, 2], "texture": "#0"},
+				"west": {"uv": [12.75, 1.5, 14, 2], "texture": "#0"},
+				"up": {"uv": [15, 1.25, 14.25, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 13.25, 1.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "part_2",
+			"from": [7.25, 2, 7.25],
+			"to": [8.75, 5, 9.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5, 8.5]},
+			"faces": {
+				"east": {"uv": [15, 10.25, 14, 11.75], "texture": "#0"},
+				"south": {"uv": [13, 10.25, 13.75, 11.75], "texture": "#0"},
+				"west": {"uv": [14, 10.25, 15, 11.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "part_2_inv",
+			"from": [8.75, 5, 9.25],
+			"to": [7.25, 2, 7.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5, 8.5]},
+			"faces": {
+				"north": {"uv": [13, 11.75, 13.75, 10.25], "texture": "#0"},
+				"east": {"uv": [14, 11.75, 15, 10.25], "texture": "#0"},
+				"west": {"uv": [15, 11.75, 14, 10.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "part_2_l2",
+			"from": [7.1, 1.85, 7.1],
+			"to": [8.9, 5.15, 9.4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 5, 8.5]},
+			"faces": {
+				"east": {"uv": [15, 12, 14, 13.5], "texture": "#0"},
+				"south": {"uv": [13, 12, 13.75, 13.5], "texture": "#0"},
+				"west": {"uv": [14, 12, 15, 13.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.5, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-7.5, 0, 0],
+			"translation": [3.75, 2.5, 0],
+			"scale": [0.67, 0.67, 0.67]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7.5, 0, 0],
+			"translation": [3.75, 2.5, 0],
+			"scale": [0.67, 0.67, 0.67]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -1.5, -2]
+		},
+		"gui": {
+			"rotation": [-90, 45, 90],
+			"translation": [2, -1.75, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, -4.75, -1]
+		}
+	},
+	"groups": [
+		{
+			"name": "Katana",
+			"origin": [0.75, -1, -0.75],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "handle",
+					"origin": [0.25, -1, -0.75],
+					"color": 0,
+					"children": [
+						1, 2, 3, 4,
+						{
+							"name": "part_2",
+							"origin": [8, 5, 8.5],
+							"color": 0,
+							"children": [5, 6, 7]
+						}
+					]
+				}
+			]
+		}
+	]
+}

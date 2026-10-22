@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/hard_stone_redstone_ore"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone_redstone_ore2"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone_redstone_ore3"
+      },
+      {
+        "model": "thedarkdimensions:block/hard_stone_redstone_ore4"
+      }
+    ]
+  }
+}

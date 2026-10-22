@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedarkdimensions:elemental_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 10,
+    "salt": 263041
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:improving_template",
+  "base": "minecraft:diamond_axe",
+  "addition": "thedarkdimensions:reinforced_stick",
+  "result": {
+    "id": "thedarkdimensions:enhanced_diamond_axe"
+  }
+}

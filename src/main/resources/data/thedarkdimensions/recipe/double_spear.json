@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:improving_template",
+  "base": "thedarkdimensions:perfected_netherite_spear",
+  "addition": "thedarkdimensions:improved_diamond_spear",
+  "result": {
+    "id": "thedarkdimensions:double_spear"
+  }
+}

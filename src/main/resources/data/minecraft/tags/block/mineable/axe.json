@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:burned_log",
+    "thedarkdimensions:burned_planks",
+    "thedarkdimensions:carved_dark_acacia_log",
+    "thedarkdimensions:dark_acacia_door",
+    "thedarkdimensions:dark_acacia_slab",
+    "thedarkdimensions:dark_acacia_stairs",
+    "thedarkdimensions:dark_acacia_trapdoor",
+    "thedarkdimensions:dark_acacia_wood",
+    "thedarkdimensions:half_carved_dark_acacia_log",
+    "thedarkdimensions:stripped_dark_acacia_log",
+    "thedarkdimensions:stripped_dark_acacia_wood"
+  ]
+}

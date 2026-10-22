@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "FCF",
+    " S "
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "F": "thedarkdimensions:chronus_fragment",
+    "C": "thedarkdimensions:essentialium_infused_metalinium_ingot",
+    "S": "thedarkdimensions:reinforced_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:timeworn_hourglass"
+  }
+}

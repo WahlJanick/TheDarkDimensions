@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F",
+    "G",
+    "S"
+  ],
+  "key": {
+    "F": "thedarkdimensions:fire_core",
+    "G": "minecraft:ghast_tear",
+    "S": "thedarkdimensions:reinforced_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:astral_crystal_wand"
+  }
+}

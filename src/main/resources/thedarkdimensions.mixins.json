@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "at.janic.thedarkdimensions.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ShulkerBulletTargetAccess",
+    "EnderEyeCrafterMixin",
+    "CooldownsAccess",
+    "CooldownInstanceAccess",
+    "RuneCraftingGateMixin",
+    "HammerGlidingMixin",
+    "DevilTridentMixin",
+    "DevilTridentImpactMixin",
+    "DevilArmorEntityMixin",
+    "DevilArmorMovementMixin",
+    "DevilLavaRiptideMixin",
+    "KatanaCounterAttemptMixin",
+    "KatanaEnchantingTableMixin",
+    "DevilWingsFlightMixin",
+    "DevilWingsStartMixin",
+    "GliderRocketUseMixin",
+    "GliderRocketBoostMixin"
+  ],
+  "client": [
+    "KatanaAnimationResourcesMixin",
+    "BloodHeartMixin",
+    "DevilArmorClientMixin",
+    "BackToolRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

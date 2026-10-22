@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:end_crystal",
+    "thedarkdimensions:basic_katana",
+    "minecraft:shulker_shell"
+  ],
+  "result": {
+    "id": "thedarkdimensions:mindshifter"
+  }
+}

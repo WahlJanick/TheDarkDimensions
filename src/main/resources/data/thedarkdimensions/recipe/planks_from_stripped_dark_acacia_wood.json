@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:stripped_dark_acacia_wood"
+  ],
+  "result": {
+    "id": "thedarkdimensions:burned_planks",
+    "count": 4
+  }
+}

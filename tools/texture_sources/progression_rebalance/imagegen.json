@@ -1,0 +1,6 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: Minecraft inventory sprite, warrior axe upgrade smithing template. Create one tiny crisp pixel-art icon on a transparent square background. Pixel grid exactly 16 by 16 logical pixels, each pixel enlarged uniformly, no antialiasing. Centered gray iron smithing tablet, chamfered corners, a small simple axe-head engraving, dark red leather grip accent matching a warrior axe. Vanilla Minecraft item aesthetic, restrained palette of gray iron, charcoal outlines and two burgundy red pixels. Icon occupies 12 by 14 logical pixels with transparent margins. No text, no letters, no glow, no shadows outside the icon, no gradients, no frame, no other icons. Must remain legible when downsampled to 16x16.",
+  "final": "warrior_axe_upgrade_template.png",
+  "postprocess": "Nearest-neighbor resize to 16x16; original alpha retained."
+}

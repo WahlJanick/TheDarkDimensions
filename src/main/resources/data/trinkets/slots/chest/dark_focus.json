@@ -1,0 +1,16 @@
+{
+  "amount": 1,
+  "order": 201,
+  "max_stack_size": 1,
+  "icon": "minecraft:container/slot/amethyst_shard",
+  "validator_predicates": [
+    "trinkets:tag"
+  ],
+  "quick_move_predicates": [
+    "trinkets:tag"
+  ],
+  "interact_equipable_predicates": [
+    "trinkets:tag"
+  ],
+  "cosmetic_slots": false
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thedarkdimensions:red_netherite_humanoid"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thedarkdimensions:red_netherite_humanoid_leggings"
+      }
+    ]
+  }
+}

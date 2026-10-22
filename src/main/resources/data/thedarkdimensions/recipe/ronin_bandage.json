@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thedarkdimensions:japanese_essence",
+    "minecraft:paper",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "thedarkdimensions:ronin_bandage",
+    "count": 4
+  }
+}

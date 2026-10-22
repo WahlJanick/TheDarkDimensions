@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "thedarkdimensions:ashes",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "thedarkdimensions:ashbound_bestiary"
+  }
+}

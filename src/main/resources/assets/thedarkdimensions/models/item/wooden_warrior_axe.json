@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "thedarkdimensions:item/wooden_warrior_axe"
+  }
+}

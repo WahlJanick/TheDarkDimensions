@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:pocket_key_upgrade_template",
+  "base": "thedarkdimensions:pocket_dimension_key",
+  "addition": "minecraft:netherite_block",
+  "result": {
+    "id": "thedarkdimensions:improved_pocket_dimension_key"
+  }
+}

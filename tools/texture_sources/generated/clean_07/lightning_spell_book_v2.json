@@ -1,0 +1,6 @@
+{
+  "name": "lightning_spell_book",
+  "kind": "item",
+  "prompt": "Edit target: attached fire spell book sprite. Change ONLY the elemental colours and symbol to gold spine, gold corner details, and a single bold bright yellow lightning-bolt cover symbol instead of the orange flame. Preserve the exact same book silhouette, dark charcoal cover, angle, overall scale, placement, margins, pale page edge, sharp square pixel-art structure and transparency as the reference. It must remain the same wide closed-book inventory shape, never a tall narrow book. Classic readable Minecraft 16x16 sprite enlarged uniformly; simple clean connected pixels, no extra ornaments, text, halo, blur, gradients or perspective changes. Transparent background.",
+  "path": "C:\\Users\\janic\\.codex\\generated_images\\01a0f15e-d4dc-7bc0-a9f1-134366037cf2\\exec-0dbbde8a-3d6f-4936-8208-2e82b6e5368c.png"
+}

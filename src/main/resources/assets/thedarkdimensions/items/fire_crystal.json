@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/fire_crystal",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 16751890
+      }
+    ]
+  }
+}

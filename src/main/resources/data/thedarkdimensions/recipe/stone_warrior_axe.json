@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MBM",
+    "MS ",
+    " W "
+  ],
+  "key": {
+    "M": "#minecraft:stone_tool_materials",
+    "B": "minecraft:stone",
+    "S": "thedarkdimensions:reinforced_stick",
+    "W": "thedarkdimensions:warrior_stick"
+  },
+  "result": {
+    "id": "thedarkdimensions:stone_warrior_axe"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "thedarkdimensions:chronus_orb_ore",
+    "thedarkdimensions:fire_cave_stone_diamond_ore",
+    "thedarkdimensions:fire_cave_stone_emerald_ore",
+    "thedarkdimensions:fire_cave_stone_gold_ore",
+    "thedarkdimensions:fire_cave_stone_redstone_ore",
+    "thedarkdimensions:glowing_cave_stone_diamond_ore",
+    "thedarkdimensions:glowing_cave_stone_emerald_ore",
+    "thedarkdimensions:glowing_cave_stone_gold_ore",
+    "thedarkdimensions:glowing_cave_stone_redstone_ore",
+    "thedarkdimensions:hard_stone_diamond_ore",
+    "thedarkdimensions:hard_stone_emerald_ore",
+    "thedarkdimensions:hard_stone_gold_ore",
+    "thedarkdimensions:hard_stone_redstone_ore",
+    "thedarkdimensions:runic_binding_bench",
+    "thedarkdimensions:water_cave_stone_diamond_ore",
+    "thedarkdimensions:water_cave_stone_emerald_ore",
+    "thedarkdimensions:water_cave_stone_gold_ore",
+    "thedarkdimensions:water_cave_stone_redstone_ore"
+  ]
+}

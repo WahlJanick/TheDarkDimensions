@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thedarkdimensions:pocket_key_upgrade_template"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thedarkdimensions:improved_pocket_dimension_key"
+    ]
+  }
+}

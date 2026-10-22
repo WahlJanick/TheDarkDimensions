@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "thedarkdimensions:block/fire_cave_stone_emerald_ore"
+      },
+      {
+        "model": "thedarkdimensions:block/fire_cave_stone_emerald_ore2"
+      },
+      {
+        "model": "thedarkdimensions:block/fire_cave_stone_emerald_ore3"
+      },
+      {
+        "model": "thedarkdimensions:block/fire_cave_stone_emerald_ore4"
+      }
+    ]
+  }
+}

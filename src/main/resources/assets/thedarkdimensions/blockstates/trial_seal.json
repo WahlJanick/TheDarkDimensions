@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "index=0,kind=ember,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_ember_0_false"
+    },
+    "index=0,kind=ember,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_ember_0_true"
+    },
+    "index=1,kind=ember,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_ember_1_false"
+    },
+    "index=1,kind=ember,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_ember_1_true"
+    },
+    "index=2,kind=ember,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_ember_2_false"
+    },
+    "index=2,kind=ember,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_ember_2_true"
+    },
+    "index=3,kind=ember,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_ember_3_false"
+    },
+    "index=3,kind=ember,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_ember_3_true"
+    },
+    "index=0,kind=tide,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_tide_0_false"
+    },
+    "index=0,kind=tide,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_tide_0_true"
+    },
+    "index=1,kind=tide,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_tide_1_false"
+    },
+    "index=1,kind=tide,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_tide_1_true"
+    },
+    "index=2,kind=tide,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_tide_2_false"
+    },
+    "index=2,kind=tide,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_tide_2_true"
+    },
+    "index=3,kind=tide,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_tide_3_false"
+    },
+    "index=3,kind=tide,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_tide_3_true"
+    },
+    "index=0,kind=radiance,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_0_false"
+    },
+    "index=0,kind=radiance,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_0_true"
+    },
+    "index=1,kind=radiance,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_1_false"
+    },
+    "index=1,kind=radiance,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_1_true"
+    },
+    "index=2,kind=radiance,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_2_false"
+    },
+    "index=2,kind=radiance,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_2_true"
+    },
+    "index=3,kind=radiance,lit=false": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_3_false"
+    },
+    "index=3,kind=radiance,lit=true": {
+      "model": "thedarkdimensions:block/trial_seal_radiance_3_true"
+    }
+  }
+}

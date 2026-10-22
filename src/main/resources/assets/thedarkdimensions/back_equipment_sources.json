@@ -1,0 +1,26 @@
+{
+  "textures/item/wool_glider.png": {
+    "source": "wool_glider/textures/item/elytra.png",
+    "sha256": "e6550eb48712f0c118c2c80bb744b4d3f9b719fe4e3a8ec13f42e3a28ac9d56f"
+  },
+  "textures/item/wool_glider_broken.png": {
+    "source": "wool_glider/textures/item/broken_elytra.png",
+    "sha256": "586569fb6e53af6a455569020d8c6bff121c69d57232e9122ef6590881fb6590"
+  },
+  "textures/entity/equipment/wings/wool_glider.png": {
+    "source": "wool_glider/textures/entity/equipment/wings/elytra.png",
+    "sha256": "36e44d3a355420aba9f1571c48530eafa3770dec910ca1eeef3fb7cacca64f24"
+  },
+  "textures/item/devils_wings.png": {
+    "source": "devils_wings/textures/item/elytra.png",
+    "sha256": "3005286255df90ba8f4fe83c9d360fe03948e5a571029c410683e440f1f574ae"
+  },
+  "textures/item/devils_wings_broken.png": {
+    "source": "devils_wings/textures/item/elytra_broken.png",
+    "sha256": "2ecfddc07a8cc3a645d8009c4f968b673242f495f77c77be00186bd264ddd213"
+  },
+  "textures/entity/equipment/wings/devils_wings.png": {
+    "source": "devils_wings/textures/entity/equipment/wings/elytra.png",
+    "sha256": "76885fbbb266ac0ebffbc504f3e943c5baddeee35f03216d224ab81e80c5c4bc"
+  }
+}

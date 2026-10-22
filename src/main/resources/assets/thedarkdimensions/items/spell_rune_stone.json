@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/spell_rune_stone",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 12760575
+      }
+    ]
+  }
+}

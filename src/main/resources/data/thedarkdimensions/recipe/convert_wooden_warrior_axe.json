@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:warrior_axe_upgrade_template",
+  "base": "minecraft:wooden_axe",
+  "addition": "thedarkdimensions:warrior_stick",
+  "result": {
+    "id": "thedarkdimensions:wooden_warrior_axe"
+  }
+}

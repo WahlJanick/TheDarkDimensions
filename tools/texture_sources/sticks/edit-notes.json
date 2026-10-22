@@ -1,0 +1,7 @@
+{
+  "source": "../items/improved_stick.png",
+  "output": "improved_stick_gray.png",
+  "prompt": "Completely desaturate the original Minecraft stick; preserve the 16x16 pixel grid, silhouette, brightness and transparency.",
+  "mode": "Built-in Imagegen reference followed by exact native-pixel restoration",
+  "pixel_preservation": "Original dimensions and alpha preserved; neutral grayscale luminance applied without resizing. Burned Stick artwork stays byte-exact."
+}

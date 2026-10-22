@@ -1,0 +1,106 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.desert"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "thedarkdimensions:fire_mage",
+              "weight": 100,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "thedarkdimensions:cinder_broodmother",
+              "weight": 3,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:visual/sky_color": "#b1aaa0",
+    "minecraft:visual/fog_color": "#c0b8ad",
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.008
+      }
+    ]
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#282139",
+    "grass_color": "#687568",
+    "foliage_color": "#5f705b"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "thedarkdimensions:wandering_cache"
+    ],
+    [],
+    [
+      "thedarkdimensions:realm_ore_coal_lower",
+      "thedarkdimensions:realm_ore_coal_upper",
+      "thedarkdimensions:realm_ore_copper",
+      "thedarkdimensions:realm_ore_iron_middle",
+      "thedarkdimensions:realm_ore_iron_small",
+      "thedarkdimensions:realm_ore_iron_upper",
+      "thedarkdimensions:realm_ore_gold",
+      "thedarkdimensions:realm_ore_gold_lower",
+      "thedarkdimensions:realm_ore_redstone",
+      "thedarkdimensions:realm_ore_redstone_lower",
+      "thedarkdimensions:realm_ore_lapis",
+      "thedarkdimensions:realm_ore_lapis_buried",
+      "thedarkdimensions:realm_ore_diamond",
+      "thedarkdimensions:realm_ore_diamond_buried",
+      "thedarkdimensions:realm_ore_diamond_large",
+      "thedarkdimensions:realm_ore_diamond_medium",
+      "thedarkdimensions:realm_ore_emerald",
+      "thedarkdimensions:chronus_orb_ore"
+    ],
+    [
+      "thedarkdimensions:essentialium_geodes"
+    ],
+    [],
+    [
+      "thedarkdimensions:fire_cave_chambers"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "climate": {
+    "has_precipitation": false,
+    "temperature": 0.8,
+    "downfall": 0.0
+  }
+}

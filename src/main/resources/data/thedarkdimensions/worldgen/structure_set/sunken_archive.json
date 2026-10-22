@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thedarkdimensions:sunken_archive",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 6,
+    "salt": 263026
+  }
+}

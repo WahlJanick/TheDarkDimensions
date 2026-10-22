@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "thedarkdimensions:devils_tear",
+  "base": "minecraft:trident",
+  "addition": "thedarkdimensions:devils_eye",
+  "result": {
+    "id": "thedarkdimensions:devils_trident"
+  }
+}

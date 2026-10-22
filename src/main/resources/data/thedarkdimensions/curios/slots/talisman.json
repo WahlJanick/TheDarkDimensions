@@ -1,0 +1,11 @@
+{
+  "size": 1,
+  "order": 230,
+  "icon": "curios:slot/empty_charm_slot",
+  "validators": [
+    "curios:tag"
+  ],
+  "entities": [
+    "minecraft:player"
+  ]
+}

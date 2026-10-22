@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "name": "mindshifter_cast",
+  "author": "The Dark Dimensions",
+  "emote": {
+    "isLoop": "false",
+    "beginTick": 0,
+    "endTick": 12,
+    "stopTick": 16,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "EASEOUTQUAD",
+        "torso": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "rightArm": {
+          "pitch": -0.4,
+          "roll": -0.1
+        },
+        "leftArm": {
+          "pitch": -0.3,
+          "roll": 0.05
+        }
+      },
+      {
+        "tick": 3,
+        "easing": "EASEINOUTQUAD",
+        "torso": {
+          "yaw": -0.28,
+          "pitch": -0.06
+        },
+        "rightArm": {
+          "pitch": -1.7,
+          "roll": -0.35
+        },
+        "leftArm": {
+          "pitch": -1.15,
+          "roll": 0.175
+        }
+      },
+      {
+        "tick": 6,
+        "easing": "EASEOUTQUAD",
+        "torso": {
+          "yaw": 0.2,
+          "pitch": 0.03
+        },
+        "rightArm": {
+          "pitch": -0.75,
+          "roll": -0.12
+        },
+        "leftArm": {
+          "pitch": -0.7,
+          "roll": 0.06
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "EASEINOUTQUAD",
+        "torso": {
+          "yaw": 0,
+          "pitch": 0
+        },
+        "rightArm": {
+          "pitch": 0,
+          "roll": 0
+        },
+        "leftArm": {
+          "pitch": 0,
+          "roll": 0.0
+        }
+      }
+    ]
+  }
+}

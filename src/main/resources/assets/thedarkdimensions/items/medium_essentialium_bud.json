@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thedarkdimensions:item/medium_essentialium_bud",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 2641092
+      }
+    ]
+  }
+}

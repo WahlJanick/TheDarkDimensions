@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DTD",
+    "DOD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "T": "thedarkdimensions:improving_template",
+    "O": "minecraft:crying_obsidian"
+  },
+  "result": {
+    "id": "thedarkdimensions:improving_template",
+    "count": 2
+  }
+}

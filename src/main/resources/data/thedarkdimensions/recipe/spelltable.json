@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "BOB",
+    "OOO"
+  ],
+  "key": {
+    "E": "thedarkdimensions:essentialium",
+    "B": "minecraft:book",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "thedarkdimensions:spelltable"
+  }
+}
